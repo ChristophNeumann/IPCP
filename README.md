@@ -7,8 +7,7 @@
 * [Contact](#contact)
 
 ## General info
-This project is a prototype of the IPCP that can be applied to Pyomo models. It is mainly intended for researchers to experiment and compare computational results on their MICP instances and
-to enable easy reproducibility of the computational results of the above article.
+This project is a prototype of the IPCP that can be applied to Pyomo models. It is mainly intended for researchers to experiment and compare computational results on their MICP instances and to enable an easy reproducibility of the computational results of the above article.
 
 Under a Gams license, you may convert Gams-models to Pyomo models and then apply the IPCP. The process of converting models is described [here](https://www.gams.com/latest/docs/S_CONVERT.html). 
 

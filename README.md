@@ -22,7 +22,7 @@ As an alternative, [Bonmin](https://projects.coin-or.org/Bonmin/wiki/GettingStar
 
 Note that when using a different LP-solver (e.g. Cplex, Gurobi), you probably need to change the lines where the solver time is queried (as the pyomo interface is different for different LP-solvers).
 
-It further requires ```numpy``` and, for visualization of results, we also use the ```pandas``` package. Both can be obtained e.g. via pip.
+Further dependencies are ```numpy``` and ```pandas``` which can both can be obtained via pip.
 
 You can run the test 
 ```

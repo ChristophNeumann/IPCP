@@ -3,7 +3,6 @@ import sys
 import csv
 import logging
 from ipcp import *
-from matplotlib import pyplot as plt
 import os
 import pickle
 import pandas as pd

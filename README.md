@@ -5,6 +5,7 @@
 * [General info](#general-info)
 * [Setup](#setup)
 * [Code Examples](#code-examples)
+* [Reproducing the experiments](#reproducing-the-experiments)
 * [Contact](#contact)
 
 ## General info
@@ -20,6 +21,14 @@ The current version uses Cbc to access Clp as an LP-solver, which is available i
 As an alternative, [Bonmin](https://projects.coin-or.org/Bonmin/wiki/GettingStarted), which can also be obtained by using the [coinbrew script](https://coin-or.github.io/coinbrew/), contains both solvers so that it suffices to install Bonmin (instead of Cbc and IPOPT). 
 
 Note that when using a different LP-solver (e.g. Cplex, Gurobi), you probably need to change the lines where the solver time is queried (as the pyomo interface is different for different LP-solvers).
+
+For visualization of results, we also use the pandas package which you may need to install (e.g. via pip).
+
+You can run the test 
+```
+python test_modules.py
+```
+to see if you installed all required packages and if the method is running correctly.
 
 ## Code Examples
 The following example runs the IPCP on a testinstance from 
@@ -56,6 +65,8 @@ The last iterate after the postprocessing step is:  [ 8.90361501 12.        ]
 It took 15 LPs to compute this point.
 ```
 
+This example can also be run from the folder ```/testinstances``` using the command ```python ex_ex_sup_hyp_1.py```. In this folder, two other examples are available.
+
 Changing algorithm settings can be done in the params.py file.
 
 ## Reproducing the experiments
@@ -66,6 +77,8 @@ The computational experiments from  [Generating feasible points for mixed-intege
 IPCP_on_granular_instances
 IPCP_on_nongranular_instances
 ```
+These scripts load the models from ```/minlplib_instances```, run the IPCP on these models and print and summarize the results. 
+
 Note that mainly due to interfacing times between Pyomo and the LP/NLP solver, applying the IPCP to problems may take significantly longer than the reported run time. The latter corresponds to the time spent in the LP/NLP solver and thus excludes interfacing times and is hence closer to the time the method would actually take when integrated into a solver.
 
 ## Contact

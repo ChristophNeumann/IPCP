@@ -1,3 +1,4 @@
+__pycache__/
 /testproblems/__pycache__
 /minlplib_instances/__pycache__
 OsiDefaultName_bounds.*

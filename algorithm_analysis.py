@@ -7,7 +7,6 @@ from matplotlib import pyplot as plt
 import os
 import pickle
 import pandas as pd
-from matplotlib import rc
 sys.path.append('minlplib_instances')  # For loading models as modules
 import params
 #sys.path.append('problem_information')
@@ -123,19 +122,6 @@ def get_model_data_for_print(m):
 def load_pyomo_model(problem_name):
     testinstance = importlib.import_module(problem_name)
     return testinstance.m
-
-def plot_iterations(model_name):
-    rc('text', usetex=True)
-    rc('font', **{'family': 'sans-serif', 'sans-serif': ['Helvetica']})
-    rc('xtick', labelsize=18)
-    rc('ytick', labelsize=18)
-    sys.path.append('minlplib_instances')
-    m = load_pyomo_model(problem_name=model_name)
-    result = IPCP(m)
-    plt.plot(result['g_vals'],color = 'gray', linewidth=3.0)
-    plt.xlabel('\huge $k$')
-    plt.ylabel('\huge $g_{\ell_{k}}(\check x^k, \check y^k)$')
-    plt.savefig(os.path.join('Z:\\hg2412\\Research\\03_FeasibleCuttingPlaneAlgorithm\\Latex', 'plot_' + model_name +'.pdf'), bbox_inches='tight')
 
 
 def to_str(f,mode = 'float'):

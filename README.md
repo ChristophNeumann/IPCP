@@ -14,7 +14,7 @@ This project is a prototype of the IPCP that can be applied to Pyomo models. It 
 Under a Gams license, you may convert Gams-models to Pyomo models and then apply the IPCP. The process of converting models is described [here](https://www.gams.com/latest/docs/S_CONVERT.html). 
 
 ## Setup
-The method has been tested under Python 3.7 using Pyomo 5.6.7 as the main framework. For solving the sub-LPs and the NLP outlined in the postprocessing step, it needs an LP-solver and an NLP-solver that can be accessed via Pyomo. 
+The method has been tested under Python 3.7 using Pyomo 5.7 as the main framework. For solving the sub-LPs and the NLP outlined in the postprocessing step, it needs an LP-solver and an NLP-solver that can be accessed via Pyomo. 
 
 The current version uses Cbc to access Clp as an LP-solver, which is available in [this github repository](https://github.com/coin-or/Cbc). As NLP-solver we currently use IPOPT, which is available in [this github repository](https://github.com/coin-or/Ipopt) (we recomment using coinbrew for the installation).
 
@@ -22,7 +22,7 @@ As an alternative, [Bonmin](https://projects.coin-or.org/Bonmin/wiki/GettingStar
 
 Note that when using a different LP-solver (e.g. Cplex, Gurobi), you probably need to change the lines where the solver time is queried (as the pyomo interface is different for different LP-solvers).
 
-For visualization of results, we also use the pandas package which you may need to install (e.g. via pip).
+It further requires ```numpy``` and, for visualization of results, we also use the ```pandas``` package. Both can be obtained e.g. via pip.
 
 You can run the test 
 ```

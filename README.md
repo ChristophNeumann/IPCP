@@ -77,7 +77,7 @@ The computational experiments from  [Generating feasible points for mixed-intege
 IPCP_on_granular_instances
 IPCP_on_nongranular_instances
 ```
-These scripts load the models from the ```/minlplib_instances```, run the IPCP on these models, print and summarize the results. 
+These scripts load the models from ```/minlplib_instances```, run the IPCP on these models and print and summarize the results. 
 
 Note that mainly due to interfacing times between Pyomo and the LP/NLP solver, applying the IPCP to problems may take significantly longer than the reported run time. The latter corresponds to the time spent in the LP/NLP solver and thus excludes interfacing times and is hence closer to the time the method would actually take when integrated into a solver.
 

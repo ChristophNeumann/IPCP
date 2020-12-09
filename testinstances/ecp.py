@@ -1,3 +1,5 @@
+import sys
+sys.path.insert(0,'..')
 from ipcp import *
 model = ConcreteModel(name = "Example extended supporting hyperplane")
 model.x1 = Var(bounds=(1,20), within=Reals)

@@ -56,6 +56,8 @@ The last iterate after the postprocessing step is:  [ 8.90361501 12.        ]
 It took 15 LPs to compute this point.
 ```
 
+Changing algorithm settings can be done in the params.py file.
+
 ## Reproducing the experiments
 
 The computational experiments from  [Generating feasible points for mixed-integer convex optimization problems by inner parallel cuts](http://www.optimization-online.org/DB_HTML/2018/11/6947.html) may be reproduced by running the scripts 
@@ -64,7 +66,7 @@ The computational experiments from  [Generating feasible points for mixed-intege
 IPCP_on_granular_instances
 IPCP_on_nongranular_instances
 ```
-Note that mainly due to interfacing times between Pyomo and the LP/NLP solver, applying the IPCP to problems may take significantly longer than the reported run time. The latter corresponds to the time spent in the LP/NLP solver and thus excludes interfacing times and is closer to the time the method would actually take when integrated into a solver.
+Note that mainly due to interfacing times between Pyomo and the LP/NLP solver, applying the IPCP to problems may take significantly longer than the reported run time. The latter corresponds to the time spent in the LP/NLP solver and thus excludes interfacing times and is hence closer to the time the method would actually take when integrated into a solver.
 
 ## Contact
 Christoph.Neumann@kit.edu

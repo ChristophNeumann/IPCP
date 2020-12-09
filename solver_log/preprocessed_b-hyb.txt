@@ -1,0 +1,3366 @@
+>>>>>>>>>>>>>>>> Running feas with time limit 1800 at Date 20/12/2019 12:27:48<<<<<<<<<<<<<<<<<<<
+############################
+Testing problem  cvxnonsep_normcon20
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -13.481024 found after 0.008351 sec and
+OA0015I Major iteration 1 ub: -13.480889
+OA0003I New best feasible of -15.252741 found after 0.280899 sec and
+OA0015I Major iteration 2 ub: -15.252588
+OA0003I New best feasible of -15.907741 found after 0.425062 sec and
+OA0015I Major iteration 3 ub: -15.907582
+OA0003I New best feasible of -16.651879 found after 0.480132 sec and
+OA0003I New best feasible of -17.689764 found after 0.562215 sec and
+OA0003I New best feasible of -18.708347 found after 0.580582 sec and
+OA0003I New best feasible of -18.876157 found after 0.80051 sec and
+OA0003I New best feasible of -18.92518 found after 1.341215 sec and
+OA0003I New best feasible of -18.964047 found after 1.908499 sec and
+OA0003I New best feasible of -19.009452 found after 2.003622 sec and
+OA0003I New best feasible of -19.117471 found after 2.136417 sec and
+OA0003I New best feasible of -19.147356 found after 2.26792 sec and
+OA0003I New best feasible of -19.531436 found after 2.728527 sec and
+OA0003I New best feasible of -19.624148 found after 3.957866 sec and
+OA0003I New best feasible of -19.669047 found after 3.958698 sec and
+OA0003I New best feasible of -19.941275 found after 5.692426 sec and
+OA0003I New best feasible of -20.069047 found after 5.722027 sec and
+OA0003I New best feasible of -20.882652 found after 14.176566 sec and
+OA0003I New best feasible of -20.960722 found after 14.412817 sec and
+OA0003I New best feasible of -21.039566 found after 14.464795 sec and
+OA0003I New best feasible of -21.059047 found after 14.475659 sec and
+OA0003I New best feasible of -21.405382 found after 14.487937 sec and
+OA0003I New best feasible of -21.420382 found after 15.233013 sec and
+OA0003I New best feasible of -21.580382 found after 15.262745 sec and
+OA0003I New best feasible of -21.659566 found after 17.310183 sec and
+OA0003I New best feasible of -21.677832 found after 17.477418 sec and
+OA0003I New best feasible of -21.749148 found after 22.853963 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1849.8248105049133 seconds
+objective value of the feasible point is: -21.749147597926495
+############################
+Testing problem  cvxnonsep_normcon20r
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -14.84774 found after 0.122262 sec and
+OA0015I Major iteration 1 ub: -14.847592
+OA0003I New best feasible of -15.89274 found after 0.150213 sec and
+OA0015I Major iteration 2 ub: -15.892582
+OA0003I New best feasible of -15.91774 found after 0.172719 sec and
+OA0015I Major iteration 3 ub: -15.917581
+OA0003I New best feasible of -19.720585 found after 0.190029 sec and
+OA0003I New best feasible of -20.105797 found after 0.192945 sec and
+OA0003I New best feasible of -20.207852 found after 0.21033 sec and
+OA0003I New best feasible of -20.742127 found after 0.212237 sec and
+OA0003I New best feasible of -21.369047 found after 0.216276 sec and
+OA0003I New best feasible of -21.429514 found after 0.220711 sec and
+OA0003I New best feasible of -21.639148 found after 0.236978 sec and
+OA0003I New best feasible of -21.69492 found after 0.241807 sec and
+OA0003I New best feasible of -21.724514 found after 0.244247 sec and
+OA0003I New best feasible of -21.749148 found after 0.247881 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.2921717166900635 seconds
+objective value of the feasible point is: -21.749147504148688
+############################
+Testing problem  cvxnonsep_normcon30
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -22.71254 found after 0.010888 sec and
+OA0015I Major iteration 1 ub: -22.712313
+OA0003I New best feasible of -23.513631 found after 10.120175 sec and
+OA0003I New best feasible of -25.322827 found after 10.303066 sec and
+OA0003I New best feasible of -27.313728 found after 10.426463 sec and
+OA0003I New best feasible of -27.99181 found after 13.475395 sec and
+OA0003I New best feasible of -28.057534 found after 13.476614 sec and
+OA0003I New best feasible of -28.483107 found after 13.736154 sec and
+OA0003I New best feasible of -29.042348 found after 43.642739 sec and
+OA0003I New best feasible of -29.92856 found after 43.811526 sec and
+OA0003I New best feasible of -29.953332 found after 44.451962 sec and
+OA0003I New best feasible of -29.981063 found after 44.462175 sec and
+OA0003I New best feasible of -30.321767 found after 46.04283 sec and
+OA0003I New best feasible of -30.57814 found after 49.573866 sec and
+OA0003I New best feasible of -30.637348 found after 848.33109 sec and
+OA0003I New best feasible of -30.695157 found after 848.342 sec and
+OA0003I New best feasible of -30.76314 found after 1389.4725 sec and
+OA0003I New best feasible of -30.769661 found after 1390.0471 sec and
+OA0003I New best feasible of -30.925794 found after 1391.1251 sec and
+OA0003I New best feasible of -31.05314 found after 1408.4929 sec and
+OA0003I New best feasible of -31.206767 found after 1413.6679 sec and
+OA0003I New best feasible of -31.797512 found after 1416.0322 sec and
+OA0003I New best feasible of -31.798112 found after 1502.8845 sec and
+OA0003I New best feasible of -31.834399 found after 1750.6113 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1845.8371920585632 seconds
+objective value of the feasible point is: -31.83439857923824
+############################
+Testing problem  cvxnonsep_normcon30r
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -22.71254 found after 0.013017 sec and
+OA0015I Major iteration 1 ub: -22.712313
+OA0003I New best feasible of -25.383631 found after 0.065276 sec and
+OA0015I Major iteration 2 ub: -25.383377
+OA0003I New best feasible of -25.388631 found after 0.093278 sec and
+OA0015I Major iteration 3 ub: -25.388377
+OA0003I New best feasible of -28.974096 found after 0.107912 sec and
+OA0003I New best feasible of -29.169993 found after 0.112742 sec and
+OA0003I New best feasible of -33.062348 found after 0.126063 sec and
+OA0003I New best feasible of -33.416502 found after 0.135392 sec and
+OA0003I New best feasible of -33.604398 found after 0.14888 sec and
+OA0003I New best feasible of -33.769398 found after 0.162833 sec and
+OA0003I New best feasible of -33.817348 found after 0.169737 sec and
+OA0003I New best feasible of -33.87856 found after 0.179436 sec and
+OA0003I New best feasible of -33.92314 found after 0.193203 sec and
+OA0003I New best feasible of -34.067348 found after 0.223689 sec and
+OA0003I New best feasible of -34.078599 found after 0.244114 sec and
+OA0003I New best feasible of -34.154661 found after 0.252121 sec and
+OA0003I New best feasible of -34.227512 found after 0.268945 sec and
+OA0003I New best feasible of -34.233966 found after 0.289514 sec and
+OA0003I New best feasible of -34.243966 found after 0.309922 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.37703776359558105 seconds
+objective value of the feasible point is: -34.243965977025645
+############################
+Testing problem  cvxnonsep_normcon40
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -23.006944 found after 0.005737 sec and
+OA0015I Major iteration 1 ub: -23.006714
+OA0003I New best feasible of -23.006944 found after 0.013869 sec and
+OA0015I Major iteration 2 ub: -23.006714
+OA0003I New best feasible of -23.006944 found after 0.027229 sec and
+OA0015I Major iteration 3 ub: -23.006714
+OA0003I New best feasible of -23.321335 found after 0.881594 sec and
+OA0003I New best feasible of -23.694461 found after 0.921416 sec and
+OA0003I New best feasible of -23.761335 found after 1.069648 sec and
+OA0003I New best feasible of -24.35731 found after 1.122819 sec and
+OA0003I New best feasible of -24.801037 found after 2.360795 sec and
+OA0003I New best feasible of -24.903725 found after 2.362039 sec and
+OA0003I New best feasible of -26.429301 found after 3.518072 sec and
+OA0003I New best feasible of -26.702758 found after 3.518928 sec and
+OA0003I New best feasible of -27.075226 found after 4.080159 sec and
+OA0003I New best feasible of -27.470858 found after 4.081193 sec and
+OA0003I New best feasible of -27.524679 found after 4.273265 sec and
+OA0003I New best feasible of -27.528384 found after 4.584636 sec and
+OA0003I New best feasible of -28.879604 found after 6.726633 sec and
+OA0003I New best feasible of -29.051079 found after 20.160655 sec and
+OA0003I New best feasible of -29.250194 found after 27.874561 sec and
+OA0003I New best feasible of -29.641622 found after 28.087169 sec and
+OA0003I New best feasible of -29.786575 found after 28.150309 sec and
+OA0003I New best feasible of -29.804566 found after 31.855918 sec and
+OA0003I New best feasible of -29.932422 found after 31.856948 sec and
+OA0003I New best feasible of -30.112422 found after 39.56708 sec and
+OA0003I New best feasible of -30.644566 found after 261.01306 sec and
+OA0003I New best feasible of -30.74967 found after 261.10689 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1831.925250530243 seconds
+objective value of the feasible point is: -30.749670049180843
+############################
+Testing problem  cvxnonsep_normcon40r
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -23.124595 found after 0.030911 sec and
+OA0015I Major iteration 1 ub: -23.124364
+OA0003I New best feasible of -23.532049 found after 0.142879 sec and
+OA0015I Major iteration 2 ub: -23.531814
+OA0003I New best feasible of -23.68051 found after 0.186561 sec and
+OA0015I Major iteration 3 ub: -23.680273
+OA0003I New best feasible of -27.12981 found after 0.195747 sec and
+OA0003I New best feasible of -27.938998 found after 0.206827 sec and
+OA0003I New best feasible of -31.391079 found after 0.236861 sec and
+OA0003I New best feasible of -32.213518 found after 0.256522 sec and
+OA0003I New best feasible of -32.281079 found after 0.268232 sec and
+OA0003I New best feasible of -32.38406 found after 0.275949 sec and
+OA0003I New best feasible of -32.403518 found after 0.328172 sec and
+OA0003I New best feasible of -32.62967 found after 0.374028 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.3966097831726074 seconds
+objective value of the feasible point is: -32.629669948802984
+############################
+Testing problem  cvxnonsep_nsig20
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 105.49289 found after 0.005065 sec and
+OA0015I Major iteration 1 ub: 105.49183
+OA0003I New best feasible of 103.69908 found after 0.011524 sec and
+OA0015I Major iteration 2 ub: 103.69804
+OA0003I New best feasible of 102.36581 found after 0.017334 sec and
+OA0015I Major iteration 3 ub: 102.36479
+OA0003I New best feasible of 93.28737 found after 0.044085 sec and
+OA0003I New best feasible of 93.022254 found after 0.071562 sec and
+OA0003I New best feasible of 92.205887 found after 0.07374 sec and
+OA0003I New best feasible of 92.048313 found after 0.076619 sec and
+OA0003I New best feasible of 89.830304 found after 0.078171 sec and
+OA0003I New best feasible of 89.031489 found after 0.092745 sec and
+OA0003I New best feasible of 86.956601 found after 0.096882 sec and
+OA0003I New best feasible of 84.830383 found after 0.10134 sec and
+OA0003I New best feasible of 84.431465 found after 0.166809 sec and
+OA0003I New best feasible of 84.227482 found after 0.17589 sec and
+OA0003I New best feasible of 84.111024 found after 0.348994 sec and
+OA0003I New best feasible of 84.053529 found after 0.35199 sec and
+OA0003I New best feasible of 83.666512 found after 0.356408 sec and
+OA0003I New best feasible of 83.522696 found after 1.187726 sec and
+OA0003I New best feasible of 82.479758 found after 1.203377 sec and
+OA0003I New best feasible of 82.287359 found after 1.902029 sec and
+OA0003I New best feasible of 82.118674 found after 200.75174 sec and
+OA0003I New best feasible of 82.065077 found after 237.89378 sec and
+OA0003I New best feasible of 81.632651 found after 297.00067 sec and
+OA0003I New best feasible of 81.527591 found after 297.91216 sec and
+OA0003I New best feasible of 81.520103 found after 552.32835 sec and
+OA0003I New best feasible of 81.391701 found after 552.90001 sec and
+OA0003I New best feasible of 81.333881 found after 625.22617 sec and
+OA0003I New best feasible of 81.233609 found after 625.40404 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1837.582438468933 seconds
+objective value of the feasible point is: 81.23360908687816
+############################
+Testing problem  cvxnonsep_nsig20r
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 105.49287 found after 0.007885 sec and
+OA0015I Major iteration 1 ub: 105.49182
+OA0003I New best feasible of 105.35391 found after 0.016592 sec and
+OA0015I Major iteration 2 ub: 105.35286
+OA0003I New best feasible of 105.17109 found after 0.025811 sec and
+OA0015I Major iteration 3 ub: 105.17004
+OA0003I New best feasible of 85.915493 found after 0.043929 sec and
+OA0003I New best feasible of 81.590646 found after 0.05302 sec and
+OA0003I New best feasible of 81.20113 found after 0.055534 sec and
+OA0003I New best feasible of 81.102457 found after 0.058435 sec and
+OA0003I New best feasible of 81.017728 found after 0.061131 sec and
+OA0003I New best feasible of 80.949278 found after 0.075342 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.10657119750976562 seconds
+objective value of the feasible point is: 80.94927802618291
+############################
+Testing problem  cvxnonsep_nsig30
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 168.3979 found after 0.016515 sec and
+OA0015I Major iteration 1 ub: 168.39622
+OA0003I New best feasible of 162.17347 found after 10.031846 sec and
+OA0003I New best feasible of 161.90393 found after 10.09464 sec and
+OA0003I New best feasible of 159.0211 found after 10.096539 sec and
+OA0003I New best feasible of 150.30372 found after 10.112952 sec and
+OA0003I New best feasible of 148.69248 found after 10.296757 sec and
+OA0003I New best feasible of 147.0379 found after 13.000318 sec and
+OA0003I New best feasible of 146.00118 found after 13.223171 sec and
+OA0003I New best feasible of 141.98589 found after 13.234307 sec and
+OA0003I New best feasible of 140.52974 found after 17.345592 sec and
+OA0003I New best feasible of 137.98592 found after 17.690029 sec and
+OA0003I New best feasible of 137.5565 found after 18.12623 sec and
+OA0003I New best feasible of 137.3692 found after 18.173875 sec and
+OA0003I New best feasible of 134.57043 found after 18.176617 sec and
+OA0003I New best feasible of 134.56793 found after 28.422904 sec and
+OA0003I New best feasible of 134.56743 found after 1739.7551 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1839.7531144618988 seconds
+objective value of the feasible point is: 134.56743096962822
+############################
+Testing problem  cvxnonsep_nsig30r
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 166.84318 found after 10.033508 sec and
+OA0003I New best feasible of 166.20609 found after 10.036665 sec and
+OA0003I New best feasible of 161.1065 found after 10.044806 sec and
+OA0003I New best feasible of 159.57356 found after 10.051116 sec and
+OA0003I New best feasible of 158.95718 found after 10.061037 sec and
+OA0003I New best feasible of 157.81162 found after 10.070738 sec and
+OA0003I New best feasible of 157.57173 found after 10.08179 sec and
+OA0003I New best feasible of 157.54074 found after 10.145204 sec and
+OA0003I New best feasible of 157.17934 found after 10.28889 sec and
+OA0003I New best feasible of 157.01683 found after 10.295636 sec and
+OA0003I New best feasible of 156.75745 found after 10.30076 sec and
+OA0003I New best feasible of 156.56619 found after 10.355256 sec and
+OA0003I New best feasible of 156.49916 found after 10.357832 sec and
+OA0003I New best feasible of 156.46003 found after 10.66225 sec and
+OA0003I New best feasible of 156.45936 found after 10.66399 sec and
+OA0003I New best feasible of 156.43625 found after 13.105428 sec and
+OA0003I New best feasible of 156.42663 found after 13.108107 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1830.6139435768127 seconds
+objective value of the feasible point is: 156.42663125340616
+############################
+Testing problem  cvxnonsep_nsig40
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 224.78929 found after 0.008302 sec and
+OA0015I Major iteration 1 ub: 224.78704
+OA0003I New best feasible of 210.85793 found after 0.016533 sec and
+OA0015I Major iteration 2 ub: 210.85582
+OA0003I New best feasible of 210.59793 found after 0.041486 sec and
+OA0015I Major iteration 3 ub: 210.59583
+OA0003I New best feasible of 183.69974 found after 0.078621 sec and
+OA0003I New best feasible of 163.79109 found after 0.104932 sec and
+OA0003I New best feasible of 163.5935 found after 0.139914 sec and
+OA0003I New best feasible of 162.92853 found after 0.231985 sec and
+OA0003I New best feasible of 161.93211 found after 0.294789 sec and
+OA0003I New best feasible of 159.06766 found after 0.296558 sec and
+OA0003I New best feasible of 157.24666 found after 0.304649 sec and
+OA0003I New best feasible of 156.18483 found after 0.306179 sec and
+OA0003I New best feasible of 154.22786 found after 0.319283 sec and
+OA0003I New best feasible of 153.68041 found after 0.598864 sec and
+OA0003I New best feasible of 153.5672 found after 0.879171 sec and
+OA0003I New best feasible of 152.51159 found after 1.621219 sec and
+OA0003I New best feasible of 152.45457 found after 3.790662 sec and
+OA0003I New best feasible of 152.22378 found after 7.522369 sec and
+OA0003I New best feasible of 151.47227 found after 14.170064 sec and
+OA0003I New best feasible of 151.13368 found after 278.73564 sec and
+OA0003I New best feasible of 146.83236 found after 279.02738 sec and
+OA0003I New best feasible of 146.62902 found after 279.16574 sec and
+OA0003I New best feasible of 146.22165 found after 279.32246 sec and
+OA0003I New best feasible of 146.16168 found after 279.41064 sec and
+OA0003I New best feasible of 144.58278 found after 279.50671 sec and
+OA0003I New best feasible of 144.32136 found after 279.65915 sec and
+OA0003I New best feasible of 142.97076 found after 279.72033 sec and
+OA0003I New best feasible of 142.91354 found after 279.81126 sec and
+OA0003I New best feasible of 142.04129 found after 281.87805 sec and
+OA0003I New best feasible of 140.88607 found after 282.13058 sec and
+OA0003I New best feasible of 140.74726 found after 283.39075 sec and
+OA0003I New best feasible of 140.581 found after 284.90854 sec and
+OA0003I New best feasible of 139.5694 found after 285.90322 sec and
+OA0003I New best feasible of 139.36054 found after 286.05534 sec and
+OA0003I New best feasible of 139.26045 found after 287.17603 sec and
+OA0003I New best feasible of 137.95037 found after 287.7149 sec and
+OA0003I New best feasible of 137.55737 found after 287.88456 sec and
+OA0003I New best feasible of 136.99524 found after 288.22831 sec and
+OA0003I New best feasible of 136.9726 found after 288.31212 sec and
+OA0003I New best feasible of 136.53243 found after 299.21288 sec and
+OA0003I New best feasible of 136.48769 found after 299.42032 sec and
+OA0003I New best feasible of 136.2162 found after 299.53189 sec and
+OA0003I New best feasible of 135.04773 found after 299.99403 sec and
+OA0003I New best feasible of 135.00515 found after 641.5845 sec and
+OA0003I New best feasible of 134.91555 found after 1730.1171 sec and
+OA0003I New best feasible of 134.79342 found after 1730.2587 sec and
+OA0003I New best feasible of 134.70463 found after 1746.1331 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1830.4191427230835 seconds
+objective value of the feasible point is: 134.70462580571117
+############################
+Testing problem  cvxnonsep_nsig40r
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 224.78905 found after 0.01223 sec and
+OA0015I Major iteration 1 ub: 224.7868
+OA0003I New best feasible of 224.76404 found after 0.02636 sec and
+OA0015I Major iteration 2 ub: 224.76179
+OA0003I New best feasible of 224.39201 found after 0.040767 sec and
+OA0015I Major iteration 3 ub: 224.38976
+OA0003I New best feasible of 189.85271 found after 0.065488 sec and
+OA0003I New best feasible of 186.87106 found after 0.06997 sec and
+OA0003I New best feasible of 186.29314 found after 0.072372 sec and
+OA0003I New best feasible of 143.5464 found after 0.076354 sec and
+OA0003I New best feasible of 140.36957 found after 0.080058 sec and
+OA0003I New best feasible of 135.00785 found after 0.08812 sec and
+OA0003I New best feasible of 134.68563 found after 0.103921 sec and
+OA0003I New best feasible of 134.66213 found after 89.156512 sec and
+OA0003I New best feasible of 134.64034 found after 94.428914 sec and
+OA0003I New best feasible of 134.62982 found after 314.08713 sec and
+OA0003I New best feasible of 134.31871 found after 339.91378 sec and
+OA0003I New best feasible of 134.31005 found after 366.43972 sec and
+OA0003I New best feasible of 134.26585 found after 366.45011 sec and
+OA0003I New best feasible of 134.23474 found after 420.69904 sec and
+OA0003I New best feasible of 134.21187 found after 423.23116 sec and
+OA0003I New best feasible of 134.16852 found after 531.49485 sec and
+OA0003I New best feasible of 134.1563 found after 533.28253 sec and
+OA0003I New best feasible of 134.1488 found after 533.69673 sec and
+OA0003I New best feasible of 134.09837 found after 732.02375 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1821.2984509468079 seconds
+objective value of the feasible point is: 134.09837436789786
+############################
+Testing problem  cvxnonsep_pcon20
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -13.256761 found after 0.006482 sec and
+OA0015I Major iteration 1 ub: -13.256629
+OA0003I New best feasible of -13.256761 found after 0.012422 sec and
+OA0015I Major iteration 2 ub: -13.256629
+OA0003I New best feasible of -13.256761 found after 0.01828 sec and
+OA0015I Major iteration 3 ub: -13.256629
+OA0003I New best feasible of -13.256761 found after 0.022844 sec and
+OA0015I Major iteration 1 ub: -13.256629
+OA0003I New best feasible of -13.513705 found after 0.062499 sec and
+OA0003I New best feasible of -16.275012 found after 0.06865 sec and
+OA0003I New best feasible of -17.229331 found after 0.082614 sec and
+OA0003I New best feasible of -20.43175 found after 0.08402 sec and
+OA0003I New best feasible of -20.50076 found after 0.088167 sec and
+OA0003I New best feasible of -20.737929 found after 0.126423 sec and
+OA0003I New best feasible of -20.820115 found after 0.189003 sec and
+OA0003I New best feasible of -20.983891 found after 0.226162 sec and
+OA0003I New best feasible of -21.07609 found after 0.249953 sec and
+OA0003I New best feasible of -21.384605 found after 0.262543 sec and
+OA0003I New best feasible of -21.482128 found after 0.284167 sec and
+OA0003I New best feasible of -21.512301 found after 0.506936 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.8717162609100342 seconds
+objective value of the feasible point is: -21.512301258576358
+############################
+Testing problem  cvxnonsep_pcon20r
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -13.256761 found after 0.007546 sec and
+OA0015I Major iteration 1 ub: -13.256629
+OA0003I New best feasible of -13.256761 found after 0.010883 sec and
+OA0015I Major iteration 2 ub: -13.256629
+OA0003I New best feasible of -13.256761 found after 0.017901 sec and
+OA0015I Major iteration 3 ub: -13.256629
+OA0003I New best feasible of -21.180152 found after 0.027714 sec and
+OA0003I New best feasible of -21.238888 found after 0.049771 sec and
+OA0003I New best feasible of -21.469438 found after 0.052433 sec and
+OA0003I New best feasible of -21.512301 found after 0.058715 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.0776817798614502 seconds
+objective value of the feasible point is: -21.51230130342447
+############################
+Testing problem  cvxnonsep_pcon30
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -24.805453 found after 0.006403 sec and
+OA0015I Major iteration 1 ub: -24.805205
+OA0003I New best feasible of -24.805453 found after 0.012259 sec and
+OA0015I Major iteration 2 ub: -24.805205
+OA0003I New best feasible of -24.805453 found after 0.017988 sec and
+OA0015I Major iteration 3 ub: -24.805205
+OA0003I New best feasible of -24.893076 found after 0.067146 sec and
+OA0003I New best feasible of -26.923018 found after 0.166219 sec and
+OA0003I New best feasible of -29.59496 found after 0.202289 sec and
+OA0003I New best feasible of -29.634212 found after 0.213695 sec and
+OA0003I New best feasible of -32.057116 found after 0.277804 sec and
+OA0003I New best feasible of -32.403754 found after 0.468577 sec and
+OA0003I New best feasible of -33.016547 found after 0.589503 sec and
+OA0003I New best feasible of -33.42637 found after 0.596138 sec and
+OA0003I New best feasible of -33.877805 found after 1.178589 sec and
+OA0003I New best feasible of -33.950081 found after 1.28409 sec and
+OA0003I New best feasible of -34.343656 found after 1.32374 sec and
+OA0003I New best feasible of -34.600965 found after 2.775454 sec and
+OA0003I New best feasible of -34.781484 found after 2.991115 sec and
+OA0003I New best feasible of -34.970684 found after 5.736068 sec and
+OA0003I New best feasible of -35.010084 found after 11.369388 sec and
+OA0003I New best feasible of -35.347192 found after 20.491959 sec and
+OA0003I New best feasible of -35.454989 found after 1524.9514 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1844.8682100772858 seconds
+objective value of the feasible point is: -35.45498948628481
+############################
+Testing problem  cvxnonsep_pcon30r
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -24.805453 found after 0.008877 sec and
+OA0015I Major iteration 1 ub: -24.805205
+OA0003I New best feasible of -24.805453 found after 0.01759 sec and
+OA0015I Major iteration 2 ub: -24.805205
+OA0003I New best feasible of -24.805453 found after 0.025954 sec and
+OA0015I Major iteration 3 ub: -24.805205
+OA0003I New best feasible of -35.732194 found after 0.049773 sec and
+OA0003I New best feasible of -35.753005 found after 0.095093 sec and
+OA0003I New best feasible of -35.854415 found after 0.108907 sec and
+OA0003I New best feasible of -35.909638 found after 0.128169 sec and
+OA0003I New best feasible of -35.947547 found after 0.140757 sec and
+OA0003I New best feasible of -35.986842 found after 0.172022 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.23551559448242188 seconds
+objective value of the feasible point is: -35.98684247155857
+############################
+Testing problem  cvxnonsep_pcon40
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -36.039249 found after 0.003417 sec and
+OA0015I Major iteration 1 ub: -36.038889
+OA0003I New best feasible of -36.039249 found after 0.009407 sec and
+OA0015I Major iteration 2 ub: -36.038889
+OA0003I New best feasible of -36.039249 found after 0.015504 sec and
+OA0015I Major iteration 3 ub: -36.038889
+OA0003I New best feasible of -37.900368 found after 0.097452 sec and
+OA0003I New best feasible of -42.939685 found after 0.175837 sec and
+OA0003I New best feasible of -43.342441 found after 39.046439 sec and
+OA0003I New best feasible of -44.158898 found after 100.96141 sec and
+OA0003I New best feasible of -44.377923 found after 732.60653 sec and
+OA0003I New best feasible of -44.387179 found after 1589.9141 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1846.414703130722 seconds
+objective value of the feasible point is: -44.387178902073515
+############################
+Testing problem  cvxnonsep_pcon40r
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -36.039249 found after 0.007788 sec and
+OA0015I Major iteration 1 ub: -36.038889
+OA0003I New best feasible of -36.039249 found after 0.017301 sec and
+OA0015I Major iteration 2 ub: -36.038889
+OA0003I New best feasible of -36.039249 found after 0.02698 sec and
+OA0015I Major iteration 3 ub: -36.038889
+OA0003I New best feasible of -38.170249 found after 0.055955 sec and
+OA0003I New best feasible of -40.76566 found after 0.060591 sec and
+OA0003I New best feasible of -41.693887 found after 0.066805 sec and
+OA0003I New best feasible of -43.837391 found after 0.071953 sec and
+OA0003I New best feasible of -44.45973 found after 0.080354 sec and
+OA0003I New best feasible of -46.11754 found after 0.090618 sec and
+OA0003I New best feasible of -46.166 found after 0.111331 sec and
+OA0003I New best feasible of -46.40319 found after 0.121849 sec and
+OA0003I New best feasible of -46.409169 found after 0.164139 sec and
+OA0003I New best feasible of -46.433531 found after 0.212701 sec and
+OA0003I New best feasible of -46.439807 found after 0.235168 sec and
+OA0003I New best feasible of -46.451247 found after 0.264873 sec and
+OA0003I New best feasible of -46.465401 found after 0.284399 sec and
+OA0003I New best feasible of -46.469169 found after 0.50925 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.5525882244110107 seconds
+objective value of the feasible point is: -46.46916907751807
+############################
+Testing problem  cvxnonsep_psig20r
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 142.05562 found after 0.011816 sec and
+OA0015I Major iteration 1 ub: 142.0542
+OA0003I New best feasible of 132.37289 found after 0.026659 sec and
+OA0015I Major iteration 2 ub: 132.37156
+OA0003I New best feasible of 132.31969 found after 0.067922 sec and
+OA0015I Major iteration 3 ub: 132.31837
+OA0003I New best feasible of 152.37037 found after 0.074648 sec and
+OA0003I New best feasible of 100.71353 found after 0.085322 sec and
+OA0003I New best feasible of 100.66232 found after 0.102749 sec and
+OA0003I New best feasible of 96.183597 found after 0.117341 sec and
+OA0003I New best feasible of 96.029452 found after 0.130303 sec and
+OA0003I New best feasible of 95.960167 found after 0.189419 sec and
+OA0003I New best feasible of 95.936088 found after 0.193293 sec and
+OA0003I New best feasible of 95.910981 found after 0.266239 sec and
+OA0003I New best feasible of 95.905448 found after 0.269823 sec and
+OA0003I New best feasible of 95.897384 found after 0.368123 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.46837592124938965 seconds
+objective value of the feasible point is: 95.89738368193026
+############################
+Testing problem  cvxnonsep_psig30r
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 123.78654 found after 0.014952 sec and
+OA0015I Major iteration 1 ub: 123.7853
+OA0003I New best feasible of 123.04641 found after 0.032766 sec and
+OA0015I Major iteration 2 ub: 123.04518
+OA0003I New best feasible of 122.9703 found after 0.052657 sec and
+OA0015I Major iteration 3 ub: 122.96907
+OA0003I New best feasible of 117.59547 found after 0.055182 sec and
+OA0003I New best feasible of 84.743419 found after 0.059503 sec and
+OA0003I New best feasible of 84.282954 found after 0.06383 sec and
+OA0003I New best feasible of 83.760714 found after 0.080814 sec and
+OA0003I New best feasible of 81.352728 found after 0.084307 sec and
+OA0003I New best feasible of 79.876994 found after 0.090179 sec and
+OA0003I New best feasible of 79.396491 found after 0.092618 sec and
+OA0003I New best feasible of 79.140323 found after 0.09736 sec and
+OA0003I New best feasible of 79.002376 found after 0.124705 sec and
+OA0003I New best feasible of 78.998852 found after 0.197254 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.2252345085144043 seconds
+objective value of the feasible point is: 78.99885186859208
+############################
+Testing problem  cvxnonsep_psig40r
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 132.0187 found after 0.012002 sec and
+OA0015I Major iteration 1 ub: 132.01738
+OA0003I New best feasible of 131.82735 found after 0.027356 sec and
+OA0015I Major iteration 2 ub: 131.82603
+OA0003I New best feasible of 131.27729 found after 0.051877 sec and
+OA0015I Major iteration 3 ub: 131.27597
+OA0003I New best feasible of 115.76936 found after 0.05797 sec and
+OA0003I New best feasible of 90.574018 found after 0.071238 sec and
+OA0003I New best feasible of 89.646102 found after 0.082011 sec and
+OA0003I New best feasible of 86.865772 found after 0.095903 sec and
+OA0003I New best feasible of 86.822088 found after 0.098946 sec and
+OA0003I New best feasible of 86.607325 found after 0.16039 sec and
+OA0003I New best feasible of 86.565534 found after 0.180551 sec and
+OA0003I New best feasible of 86.545102 found after 0.184087 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.25297999382019043 seconds
+objective value of the feasible point is: 86.54510199355022
+############################
+Testing problem  du-opt
+############################
+runtime for lower bound epi: 0.010611295700073242
+lower bound is: 3.33063074132002
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 56.529119 found after 0.048139 sec and
+OA0015I Major iteration 1 ub: 56.528554
+OA0003I New best feasible of 468.13473 found after 10.020951 sec and
+OA0003I New best feasible of 22.986589 found after 10.026541 sec and
+OA0003I New best feasible of 9.4540339 found after 10.03305 sec and
+OA0003I New best feasible of 5.6592708 found after 10.038657 sec and
+OA0003I New best feasible of 5.5419404 found after 10.116834 sec and
+OA0003I New best feasible of 5.358302 found after 10.122636 sec and
+OA0003I New best feasible of 4.7126708 found after 10.133165 sec and
+OA0003I New best feasible of 4.4915007 found after 10.168189 sec and
+OA0003I New best feasible of 4.1775302 found after 10.221106 sec and
+OA0003I New best feasible of 4.0625689 found after 10.27413 sec and
+OA0003I New best feasible of 4.0169219 found after 10.279463 sec and
+OA0003I New best feasible of 3.9809989 found after 10.284181 sec and
+OA0003I New best feasible of 3.7438848 found after 10.980781 sec and
+OA0003I New best feasible of 3.7372526 found after 11.356434 sec and
+OA0003I New best feasible of 3.6578455 found after 11.449349 sec and
+OA0003I New best feasible of 3.6460454 found after 12.471668 sec and
+OA0003I New best feasible of 3.643308 found after 12.546822 sec and
+OA0003I New best feasible of 3.6424276 found after 12.889924 sec and
+OA0003I New best feasible of 3.6256809 found after 13.596961 sec and
+OA0003I New best feasible of 3.6218727 found after 15.385939 sec and
+OA0003I New best feasible of 3.582058 found after 15.748116 sec and
+OA0003I New best feasible of 3.566241 found after 19.443232 sec and
+OA0003I New best feasible of 3.5583725 found after 21.585344 sec and
+OA0003I New best feasible of 3.5582908 found after 25.602981 sec and
+OA0003I New best feasible of 3.5577491 found after 27.954055 sec and
+OA0003I New best feasible of 3.556791 found after 27.999883 sec and
+OA0003I New best feasible of 3.5563396 found after 28.396582 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 33.85515236854553 seconds
+objective value of the feasible point is: 3.556339572631341
+############################
+Testing problem  ex1223a
+############################
+runtime for lower bound epi: 0.00731968879699707
+lower bound is: 4.466079472613383
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 7.2506083 found after 0.012217 sec and
+OA0015I Major iteration 1 ub: 7.2505358
+OA0003I New best feasible of 6.5574612 found after 0.021643 sec and
+OA0015I Major iteration 2 ub: 6.5573956
+OA0003I New best feasible of 5.2727295 found after 0.038333 sec and
+OA0015I Major iteration 3 ub: 5.2726767
+OA0003I New best feasible of 4.5795823 found after 0.066596 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.09408974647521973 seconds
+objective value of the feasible point is: 4.579582273810005
+############################
+Testing problem  ex1223b
+############################
+runtime for lower bound epi: 0.008036375045776367
+lower bound is: 3.8853003737380245
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 5.5795823 found after 0.017455 sec and
+OA0015I Major iteration 1 ub: 5.5795265
+OA0003I New best feasible of 4.5795823 found after 0.052542 sec and
+OA0015I Major iteration 2 ub: 4.5795365
+OA0003I New best feasible of 5.5795823 found after 0.073124 sec and
+OA0015I Major iteration 1 ub: 5.5795265
+OA0003I New best feasible of 4.5795823 found after 0.100399 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.13614273071289062 seconds
+objective value of the feasible point is: 4.579582335177908
+############################
+Testing problem  ex4
+############################
+runtime for lower bound epi: 0.009723186492919922
+lower bound is: -16.748801398429748
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 211056.49 found after 0.019099 sec and
+OA0015I Major iteration 1 ub: 211054.38
+OA0003I New best feasible of 206369.4 found after 0.043226 sec and
+OA0015I Major iteration 2 ub: 206367.33
+OA0003I New best feasible of 108119.25 found after 0.070405 sec and
+OA0015I Major iteration 3 ub: 108118.17
+OA0003I New best feasible of 74010.819 found after 0.121379 sec and
+OA0003I New best feasible of 14128.687 found after 0.138591 sec and
+OA0003I New best feasible of 13695.447 found after 0.179842 sec and
+OA0003I New best feasible of 588.31207 found after 0.196452 sec and
+OA0003I New best feasible of -8.0641967 found after 0.214596 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.29814577102661133 seconds
+objective value of the feasible point is: -8.06419670250089
+############################
+Testing problem  gbd
+############################
+runtime for lower bound epi: 0.006966114044189453
+lower bound is: 2.19999998249836
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 2.2 found after 0.009587 sec and
+OA0015I Major iteration 1 ub: 2.199978
+OA0003I New best feasible of 2.2 found after 0.016176 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.030767440795898438 seconds
+objective value of the feasible point is: 2.19999998249836
+############################
+Testing problem  nvs03
+############################
+runtime for lower bound epi: 0.007111072540283203
+lower bound is: 8.152139827615747
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+
+ 	"Aborted"
+Could not solve this problem due to the following error:
+Cannot load a SolverResults object with bad status: error
+############################
+Testing problem  nvs10
+############################
+runtime for lower bound epi: 0.008220911026000977
+lower bound is: -313.08999999999986
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -259.2 found after 0.006237 sec and
+OA0015I Major iteration 1 ub: -259.19741
+OA0003I New best feasible of -259.2 found after 0.016473 sec and
+OA0015I Major iteration 2 ub: -259.19741
+OA0003I New best feasible of -259.2 found after 0.026642 sec and
+OA0015I Major iteration 3 ub: -259.19741
+OA0003I New best feasible of -9.99e-09 found after 0.031371 sec and
+OA0003I New best feasible of -225.6 found after 0.033638 sec and
+OA0003I New best feasible of -267.6 found after 0.037879 sec and
+OA0003I New best feasible of -294 found after 0.037879 sec and
+OA0003I New best feasible of -308.4 found after 0.043073 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.06606912612915039 seconds
+objective value of the feasible point is: -308.40000000999004
+############################
+Testing problem  nvs11
+############################
+runtime for lower bound epi: 0.007596254348754883
+lower bound is: -432.77
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -358.4 found after 0.01039 sec and
+OA0015I Major iteration 1 ub: -358.39642
+OA0003I New best feasible of -358.4 found after 0.020064 sec and
+OA0015I Major iteration 2 ub: -358.39642
+OA0003I New best feasible of -358.4 found after 0.032186 sec and
+OA0015I Major iteration 3 ub: -358.39642
+OA0003I New best feasible of -9.99e-09 found after 0.034484 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.08073759078979492 seconds
+objective value of the feasible point is: -9.99e-09
+############################
+Testing problem  nvs12
+############################
+runtime for lower bound epi: 0.009307384490966797
+lower bound is: -483.16999999999996
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -358.4 found after 0.011103 sec and
+OA0015I Major iteration 1 ub: -358.39642
+OA0003I New best feasible of -358.4 found after 0.018159 sec and
+OA0015I Major iteration 2 ub: -358.39642
+OA0003I New best feasible of -358.4 found after 0.027993 sec and
+OA0015I Major iteration 3 ub: -358.39642
+OA0003I New best feasible of -9.9900006e-09 found after 0.030479 sec and
+OA0003I New best feasible of -416 found after 0.036438 sec and
+OA0003I New best feasible of -419.6 found after 0.082949 sec and
+OA0003I New best feasible of -447.6 found after 0.101753 sec and
+OA0003I New best feasible of -454.4 found after 0.128009 sec and
+OA0003I New best feasible of -467 found after 0.133829 sec and
+OA0003I New best feasible of -467.6 found after 0.160613 sec and
+OA0003I New best feasible of -474 found after 0.164712 sec and
+OA0003I New best feasible of -478 found after 0.202125 sec and
+OA0003I New best feasible of -481.2 found after 0.204012 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.25693225860595703 seconds
+objective value of the feasible point is: -481.20000000999
+############################
+Testing problem  nvs15
+############################
+runtime for lower bound epi: 0.006995677947998047
+lower bound is: 0.11111112583777683
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 8.9999999 found after 0.012243 sec and
+OA0015I Major iteration 1 ub: 8.9999099
+OA0003I New best feasible of 4.9999999 found after 0.024418 sec and
+OA0015I Major iteration 2 ub: 4.9999499
+OA0003I New best feasible of 2.9999999 found after 0.032983 sec and
+OA0015I Major iteration 3 ub: 2.9999699
+OA0003I New best feasible of 8.9999999 found after 0.048627 sec and
+OA0015I Major iteration 1 ub: 8.9999099
+OA0003I New best feasible of 1.9999999 found after 0.055118 sec and
+OA0003I New best feasible of 0.99999991 found after 0.062959 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.0839240550994873 seconds
+objective value of the feasible point is: 0.9999999100090615
+############################
+Testing problem  portfol_buyin
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 0.030458852 found after 0.009069 sec and
+OA0015I Major iteration 1 ub: 0.030458548
+OA0003I New best feasible of 0.029423789 found after 0.028135 sec and
+OA0015I Major iteration 2 ub: 0.029423495
+OA0003I New best feasible of 0.35648952 found after 0.061219 sec and
+OA0003I New best feasible of 0.030458852 found after 0.069944 sec and
+OA0015I Major iteration 1 ub: 0.030458548
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.08960151672363281 seconds
+objective value of the feasible point is: 0.03045885240930554
+############################
+Testing problem  smallinvDAXr1b150-165
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 381.59173 found after 0.009136 sec and
+OA0015I Major iteration 1 ub: 381.58791
+OA0003I New best feasible of 378.42161 found after 0.014347 sec and
+OA0015I Major iteration 2 ub: 378.41783
+OA0003I New best feasible of 377.5644 found after 0.0239 sec and
+OA0015I Major iteration 3 ub: 377.56062
+OA0003I New best feasible of 186.99152 found after 0.027241 sec and
+OA0003I New best feasible of 186.2968 found after 0.028668 sec and
+OA0003I New best feasible of 185.91318 found after 0.030024 sec and
+OA0003I New best feasible of 124.44212 found after 0.042609 sec and
+OA0003I New best feasible of 114.15493 found after 0.053693 sec and
+OA0003I New best feasible of 107.28818 found after 0.060015 sec and
+OA0003I New best feasible of 107.17607 found after 0.061403 sec and
+OA0003I New best feasible of 96.722607 found after 0.130664 sec and
+OA0003I New best feasible of 94.311838 found after 0.137831 sec and
+OA0003I New best feasible of 94.187495 found after 0.374895 sec and
+OA0003I New best feasible of 92.629732 found after 0.380649 sec and
+OA0003I New best feasible of 92.383327 found after 0.988534 sec and
+OA0003I New best feasible of 90.778637 found after 1.034076 sec and
+OA0003I New best feasible of 90.29871 found after 2.529253 sec and
+OA0003I New best feasible of 90.020731 found after 2.600614 sec and
+OA0003I New best feasible of 89.709936 found after 2.603836 sec and
+OA0003I New best feasible of 89.373268 found after 6.675159 sec and
+OA0003I New best feasible of 88.954068 found after 14.109624 sec and
+OA0003I New best feasible of 88.878143 found after 14.16284 sec and
+OA0003I New best feasible of 88.70326 found after 29.448746 sec and
+OA0003I New best feasible of 88.471677 found after 30.049758 sec and
+OA0003I New best feasible of 88.359086 found after 58.203592 sec and
+OA0003I New best feasible of 88.318545 found after 60.161463 sec and
+OA0003I New best feasible of 88.280274 found after 115.30944 sec and
+OA0003I New best feasible of 88.174491 found after 202.62394 sec and
+OA0003I New best feasible of 88.140446 found after 518.41505 sec and
+OA0003I New best feasible of 88.131537 found after 750.36119 sec and
+OA0003I New best feasible of 88.131043 found after 1011.0228 sec and
+OA0003I New best feasible of 88.124498 found after 1011.0758 sec and
+OA0003I New best feasible of 88.10928 found after 1012.1301 sec and
+OA0003I New best feasible of 88.107827 found after 1552.0718 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1808.959219455719 seconds
+objective value of the feasible point is: 88.10782663201171
+############################
+Testing problem  smallinvDAXr1b200-220
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 879.98441 found after 0.00897 sec and
+OA0015I Major iteration 1 ub: 879.97561
+OA0003I New best feasible of 281.98411 found after 10.004816 sec and
+OA0003I New best feasible of 280.93029 found after 10.006378 sec and
+OA0003I New best feasible of 229.48945 found after 10.008378 sec and
+OA0003I New best feasible of 200.54589 found after 10.014343 sec and
+OA0003I New best feasible of 197.48414 found after 10.02013 sec and
+OA0003I New best feasible of 167.24554 found after 10.060122 sec and
+OA0003I New best feasible of 165.99421 found after 10.110569 sec and
+OA0003I New best feasible of 161.66889 found after 10.371022 sec and
+OA0003I New best feasible of 161.58693 found after 10.44517 sec and
+OA0003I New best feasible of 159.95143 found after 10.450135 sec and
+OA0003I New best feasible of 159.86082 found after 10.451286 sec and
+OA0003I New best feasible of 157.83076 found after 10.726727 sec and
+OA0003I New best feasible of 157.72641 found after 11.563924 sec and
+OA0003I New best feasible of 156.92854 found after 11.920946 sec and
+OA0003I New best feasible of 156.76087 found after 15.950297 sec and
+OA0003I New best feasible of 156.71455 found after 18.834985 sec and
+OA0003I New best feasible of 156.69419 found after 23.919359 sec and
+OA0003I New best feasible of 156.67928 found after 47.805615 sec and
+OA0003I New best feasible of 156.65845 found after 67.47404 sec and
+OA0003I New best feasible of 156.63177 found after 67.513102 sec and
+OA0003I New best feasible of 156.61691 found after 80.955194 sec and
+OA0003I New best feasible of 156.60427 found after 81.005359 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1811.5146043300629 seconds
+objective value of the feasible point is: 156.60426787401
+############################
+Testing problem  smallinvDAXr2b150-165
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 381.59173 found after 0.009616 sec and
+OA0015I Major iteration 1 ub: 381.58791
+OA0003I New best feasible of 161.00224 found after 10.006736 sec and
+OA0003I New best feasible of 160.97055 found after 10.01071 sec and
+OA0003I New best feasible of 160.94366 found after 10.011895 sec and
+OA0003I New best feasible of 160.94237 found after 10.015447 sec and
+OA0003I New best feasible of 125.54219 found after 10.031214 sec and
+OA0003I New best feasible of 116.32589 found after 10.057585 sec and
+OA0003I New best feasible of 100.15633 found after 10.073855 sec and
+OA0003I New best feasible of 99.130739 found after 10.078062 sec and
+OA0003I New best feasible of 93.017524 found after 10.21832 sec and
+OA0003I New best feasible of 92.3269 found after 10.419682 sec and
+OA0003I New best feasible of 91.707352 found after 10.840298 sec and
+OA0003I New best feasible of 91.700752 found after 22.076565 sec and
+OA0003I New best feasible of 91.46547 found after 22.106846 sec and
+OA0003I New best feasible of 91.465205 found after 27.567438 sec and
+OA0003I New best feasible of 91.27797 found after 27.571147 sec and
+OA0003I New best feasible of 91.222504 found after 110.65792 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1815.9593625068665 seconds
+objective value of the feasible point is: 91.22250360800999
+############################
+Testing problem  smallinvDAXr2b200-220
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 879.98441 found after 0.010625 sec and
+OA0015I Major iteration 1 ub: 879.97561
+OA0003I New best feasible of 876.38897 found after 0.019035 sec and
+OA0015I Major iteration 2 ub: 876.38021
+OA0003I New best feasible of 284.73033 found after 10.009566 sec and
+OA0003I New best feasible of 281.54615 found after 10.015204 sec and
+OA0003I New best feasible of 243.81644 found after 10.01665 sec and
+OA0003I New best feasible of 172.11363 found after 10.036327 sec and
+OA0003I New best feasible of 165.11431 found after 10.078468 sec and
+OA0003I New best feasible of 164.97701 found after 10.11158 sec and
+OA0003I New best feasible of 161.85396 found after 10.15257 sec and
+OA0003I New best feasible of 160.7409 found after 10.156592 sec and
+OA0003I New best feasible of 160.70638 found after 10.161548 sec and
+OA0003I New best feasible of 160.14922 found after 10.176803 sec and
+OA0003I New best feasible of 159.83015 found after 11.21034 sec and
+OA0003I New best feasible of 159.77404 found after 11.231858 sec and
+OA0003I New best feasible of 158.58644 found after 11.678511 sec and
+OA0003I New best feasible of 158.45942 found after 12.234259 sec and
+OA0003I New best feasible of 158.37118 found after 14.393326 sec and
+OA0003I New best feasible of 158.07504 found after 14.50059 sec and
+OA0003I New best feasible of 157.93378 found after 15.261771 sec and
+OA0003I New best feasible of 157.71602 found after 15.630358 sec and
+OA0003I New best feasible of 157.50424 found after 23.100178 sec and
+OA0003I New best feasible of 157.18857 found after 43.254623 sec and
+OA0003I New best feasible of 157.16912 found after 43.3464 sec and
+OA0003I New best feasible of 157.13696 found after 43.544453 sec and
+OA0003I New best feasible of 156.98882 found after 43.615756 sec and
+OA0003I New best feasible of 156.93743 found after 74.893547 sec and
+OA0003I New best feasible of 156.77553 found after 80.174958 sec and
+OA0003I New best feasible of 156.74803 found after 80.633594 sec and
+OA0003I New best feasible of 156.71892 found after 235.05419 sec and
+OA0003I New best feasible of 156.71123 found after 241.14411 sec and
+OA0003I New best feasible of 156.67968 found after 620.97202 sec and
+OA0003I New best feasible of 156.65433 found after 930.58103 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1809.9421513080597 seconds
+objective value of the feasible point is: 156.65433423801
+############################
+Testing problem  smallinvDAXr3b150-165
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 381.59173 found after 0.009477 sec and
+OA0015I Major iteration 1 ub: 381.58791
+OA0003I New best feasible of 346.94647 found after 10.010861 sec and
+OA0003I New best feasible of 342.52782 found after 10.021064 sec and
+OA0003I New best feasible of 176.7087 found after 10.043923 sec and
+OA0003I New best feasible of 141.30347 found after 10.132368 sec and
+OA0003I New best feasible of 140.60598 found after 10.463302 sec and
+OA0003I New best feasible of 137.37888 found after 10.510399 sec and
+OA0003I New best feasible of 134.07223 found after 10.513036 sec and
+OA0003I New best feasible of 132.83741 found after 10.540771 sec and
+OA0003I New best feasible of 131.61384 found after 10.545645 sec and
+OA0003I New best feasible of 130.17459 found after 10.586817 sec and
+OA0003I New best feasible of 128.35159 found after 10.613719 sec and
+OA0003I New best feasible of 124.51304 found after 10.63398 sec and
+OA0003I New best feasible of 120.59277 found after 11.379409 sec and
+OA0003I New best feasible of 114.79058 found after 15.540824 sec and
+OA0003I New best feasible of 114.56734 found after 15.567034 sec and
+OA0003I New best feasible of 113.70988 found after 15.569707 sec and
+OA0003I New best feasible of 105.8362 found after 15.639423 sec and
+OA0003I New best feasible of 102.75828 found after 15.649544 sec and
+OA0003I New best feasible of 101.68358 found after 15.656156 sec and
+OA0003I New best feasible of 101.57913 found after 15.690346 sec and
+OA0003I New best feasible of 100.89991 found after 15.968857 sec and
+OA0003I New best feasible of 100.045 found after 16.046466 sec and
+OA0003I New best feasible of 93.578521 found after 16.181641 sec and
+OA0003I New best feasible of 93.573203 found after 16.294149 sec and
+OA0003I New best feasible of 93.172784 found after 16.497156 sec and
+OA0003I New best feasible of 93.090331 found after 16.503183 sec and
+OA0003I New best feasible of 93.06012 found after 16.783189 sec and
+OA0003I New best feasible of 90.684282 found after 17.285327 sec and
+OA0003I New best feasible of 90.190072 found after 18.955768 sec and
+OA0003I New best feasible of 89.985091 found after 47.909299 sec and
+OA0003I New best feasible of 89.776314 found after 47.949694 sec and
+OA0003I New best feasible of 89.717154 found after 47.960749 sec and
+OA0003I New best feasible of 89.684767 found after 49.642589 sec and
+OA0003I New best feasible of 89.660211 found after 49.691049 sec and
+OA0003I New best feasible of 89.562542 found after 67.591542 sec and
+OA0003I New best feasible of 89.46475 found after 70.297772 sec and
+OA0003I New best feasible of 89.203573 found after 70.532639 sec and
+OA0003I New best feasible of 88.689148 found after 70.572487 sec and
+OA0003I New best feasible of 88.521455 found after 70.798709 sec and
+OA0003I New best feasible of 88.399452 found after 94.562947 sec and
+OA0003I New best feasible of 88.29125 found after 95.678759 sec and
+OA0003I New best feasible of 88.230258 found after 160.31303 sec and
+OA0003I New best feasible of 88.195032 found after 202.95932 sec and
+OA0003I New best feasible of 88.14185 found after 256.6197 sec and
+OA0003I New best feasible of 88.137779 found after 381.30049 sec and
+OA0003I New best feasible of 88.112617 found after 504.65892 sec and
+OA0003I New best feasible of 88.105345 found after 678.41601 sec and
+OA0003I New best feasible of 88.104935 found after 763.13993 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1809.3883428573608 seconds
+objective value of the feasible point is: 88.10493475001
+############################
+Testing problem  smallinvDAXr3b200-220
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 852.01949 found after 0.020657 sec and
+OA0015I Major iteration 1 ub: 852.01097
+OA0003I New best feasible of 851.41818 found after 0.040432 sec and
+OA0015I Major iteration 2 ub: 851.40967
+OA0003I New best feasible of 847.88333 found after 0.061719 sec and
+OA0015I Major iteration 3 ub: 847.87485
+OA0003I New best feasible of 335.71902 found after 0.071289 sec and
+OA0003I New best feasible of 230.51899 found after 0.082158 sec and
+OA0003I New best feasible of 216.3092 found after 0.083525 sec and
+OA0003I New best feasible of 215.55394 found after 0.265031 sec and
+OA0003I New best feasible of 195.35038 found after 0.277006 sec and
+OA0003I New best feasible of 175.01467 found after 0.288771 sec and
+OA0003I New best feasible of 174.55964 found after 0.323561 sec and
+OA0003I New best feasible of 173.33602 found after 0.325784 sec and
+OA0003I New best feasible of 168.66999 found after 0.328632 sec and
+OA0003I New best feasible of 164.06502 found after 0.368859 sec and
+OA0003I New best feasible of 163.59119 found after 0.462893 sec and
+OA0003I New best feasible of 163.22632 found after 0.511049 sec and
+OA0003I New best feasible of 162.69109 found after 0.578336 sec and
+OA0003I New best feasible of 162.26525 found after 0.582245 sec and
+OA0003I New best feasible of 161.82642 found after 1.084013 sec and
+OA0003I New best feasible of 161.76107 found after 1.248716 sec and
+OA0003I New best feasible of 161.44126 found after 1.281979 sec and
+OA0003I New best feasible of 161.35173 found after 1.338987 sec and
+OA0003I New best feasible of 161.09245 found after 1.347975 sec and
+OA0003I New best feasible of 160.76418 found after 1.560155 sec and
+OA0003I New best feasible of 160.68968 found after 1.567759 sec and
+OA0003I New best feasible of 160.51917 found after 1.946224 sec and
+OA0003I New best feasible of 160.46662 found after 2.151178 sec and
+OA0003I New best feasible of 160.35365 found after 2.344952 sec and
+OA0003I New best feasible of 160.07562 found after 2.596465 sec and
+OA0003I New best feasible of 158.78291 found after 19.776435 sec and
+OA0003I New best feasible of 158.03504 found after 19.891716 sec and
+OA0003I New best feasible of 157.71704 found after 19.920928 sec and
+OA0003I New best feasible of 157.60617 found after 20.394261 sec and
+OA0003I New best feasible of 157.47491 found after 20.412708 sec and
+OA0003I New best feasible of 157.40641 found after 20.423162 sec and
+OA0003I New best feasible of 157.24962 found after 20.489151 sec and
+OA0003I New best feasible of 157.19153 found after 21.190361 sec and
+OA0003I New best feasible of 157.06747 found after 21.24393 sec and
+OA0003I New best feasible of 156.96701 found after 21.448237 sec and
+OA0003I New best feasible of 156.94033 found after 24.147395 sec and
+OA0003I New best feasible of 156.92781 found after 27.363204 sec and
+OA0003I New best feasible of 156.81822 found after 27.437924 sec and
+OA0003I New best feasible of 156.81023 found after 36.240509 sec and
+OA0003I New best feasible of 156.68805 found after 43.550427 sec and
+OA0003I New best feasible of 156.68381 found after 314.68573 sec and
+OA0003I New best feasible of 156.66975 found after 330.77724 sec and
+OA0003I New best feasible of 156.64649 found after 342.73362 sec and
+OA0003I New best feasible of 156.64582 found after 393.60148 sec and
+OA0003I New best feasible of 156.61779 found after 439.19877 sec and
+OA0003I New best feasible of 156.61462 found after 455.51984 sec and
+OA0003I New best feasible of 156.60427 found after 1337.0015 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 1406.6207756996155 seconds
+objective value of the feasible point is: 156.60426787401
+############################
+Testing problem  smallinvDAXr4b150-165
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 158.40645 found after 10.006638 sec and
+OA0003I New best feasible of 157.17814 found after 10.008224 sec and
+OA0003I New best feasible of 156.99814 found after 10.009576 sec and
+OA0003I New best feasible of 156.07177 found after 10.011415 sec and
+OA0003I New best feasible of 128.63502 found after 10.015538 sec and
+OA0003I New best feasible of 126.88729 found after 10.022904 sec and
+OA0003I New best feasible of 125.31298 found after 10.039721 sec and
+OA0003I New best feasible of 105.49574 found after 10.044141 sec and
+OA0003I New best feasible of 103.67374 found after 10.113437 sec and
+OA0003I New best feasible of 99.831754 found after 10.249264 sec and
+OA0003I New best feasible of 93.723197 found after 10.311023 sec and
+OA0003I New best feasible of 93.392611 found after 10.643768 sec and
+OA0003I New best feasible of 93.337051 found after 10.686992 sec and
+OA0003I New best feasible of 91.120153 found after 10.724381 sec and
+OA0003I New best feasible of 89.555576 found after 11.112382 sec and
+OA0003I New best feasible of 89.318147 found after 12.403541 sec and
+OA0003I New best feasible of 88.604671 found after 15.435218 sec and
+OA0003I New best feasible of 88.580744 found after 15.556771 sec and
+OA0003I New best feasible of 88.446001 found after 18.081232 sec and
+OA0003I New best feasible of 88.441593 found after 36.286558 sec and
+OA0003I New best feasible of 88.220775 found after 36.323795 sec and
+OA0003I New best feasible of 88.169737 found after 53.880716 sec and
+OA0003I New best feasible of 88.168599 found after 80.24624 sec and
+OA0003I New best feasible of 88.164825 found after 124.54935 sec and
+OA0003I New best feasible of 88.129953 found after 124.64131 sec and
+OA0003I New best feasible of 88.126546 found after 126.19048 sec and
+OA0003I New best feasible of 88.126446 found after 284.08401 sec and
+OA0003I New best feasible of 88.125196 found after 425.07327 sec and
+OA0003I New best feasible of 88.119933 found after 605.93647 sec and
+OA0003I New best feasible of 88.105345 found after 859.3582 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1810.6303079128265 seconds
+objective value of the feasible point is: 88.10534515601756
+############################
+Testing problem  smallinvDAXr4b200-220
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 281.98411 found after 10.004141 sec and
+OA0003I New best feasible of 280.93029 found after 10.005733 sec and
+OA0003I New best feasible of 229.48945 found after 10.007753 sec and
+OA0003I New best feasible of 201.89519 found after 10.016653 sec and
+OA0003I New best feasible of 178.78097 found after 10.029985 sec and
+OA0003I New best feasible of 174.05032 found after 10.037619 sec and
+OA0003I New best feasible of 167.01036 found after 10.07504 sec and
+OA0003I New best feasible of 164.98983 found after 10.102687 sec and
+OA0003I New best feasible of 164.67762 found after 10.431876 sec and
+OA0003I New best feasible of 164.12732 found after 10.444608 sec and
+OA0003I New best feasible of 162.13318 found after 10.90316 sec and
+OA0003I New best feasible of 158.89967 found after 10.92143 sec and
+OA0003I New best feasible of 158.30986 found after 10.988762 sec and
+OA0003I New best feasible of 158.08975 found after 11.876567 sec and
+OA0003I New best feasible of 158.06815 found after 11.877748 sec and
+OA0003I New best feasible of 158.0276 found after 13.209418 sec and
+OA0003I New best feasible of 157.91147 found after 13.288664 sec and
+OA0003I New best feasible of 157.27466 found after 15.48967 sec and
+OA0003I New best feasible of 157.26938 found after 18.292073 sec and
+OA0003I New best feasible of 157.22809 found after 27.393651 sec and
+OA0003I New best feasible of 156.93264 found after 34.969715 sec and
+OA0003I New best feasible of 156.91122 found after 78.137991 sec and
+OA0003I New best feasible of 156.89658 found after 93.121084 sec and
+OA0003I New best feasible of 156.87536 found after 103.57306 sec and
+OA0003I New best feasible of 156.86375 found after 127.40119 sec and
+OA0003I New best feasible of 156.84901 found after 136.71047 sec and
+OA0003I New best feasible of 156.78058 found after 136.95639 sec and
+OA0003I New best feasible of 156.67004 found after 177.56602 sec and
+OA0003I New best feasible of 156.65738 found after 223.22206 sec and
+OA0003I New best feasible of 156.62797 found after 270.83047 sec and
+OA0003I New best feasible of 156.62136 found after 432.2182 sec and
+OA0003I New best feasible of 156.61659 found after 437.63339 sec and
+OA0003I New best feasible of 156.60427 found after 722.61201 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1808.6139783859253 seconds
+objective value of the feasible point is: 156.60426787401
+############################
+Testing problem  smallinvDAXr5b150-165
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 409.57441 found after 10.00512 sec and
+OA0003I New best feasible of 193.06104 found after 10.017675 sec and
+OA0003I New best feasible of 127.81409 found after 10.028434 sec and
+OA0003I New best feasible of 126.18663 found after 10.040784 sec and
+OA0003I New best feasible of 126.10979 found after 10.062743 sec and
+OA0003I New best feasible of 113.38967 found after 10.066537 sec and
+OA0003I New best feasible of 110.52719 found after 10.06857 sec and
+OA0003I New best feasible of 98.35345 found after 10.151927 sec and
+OA0003I New best feasible of 92.023197 found after 10.411625 sec and
+OA0003I New best feasible of 91.409907 found after 10.939895 sec and
+OA0003I New best feasible of 91.202334 found after 12.126972 sec and
+OA0003I New best feasible of 90.433435 found after 13.757411 sec and
+OA0003I New best feasible of 90.244702 found after 20.46967 sec and
+OA0003I New best feasible of 89.326755 found after 29.971955 sec and
+OA0003I New best feasible of 89.276595 found after 29.995841 sec and
+OA0003I New best feasible of 89.161114 found after 50.850054 sec and
+OA0003I New best feasible of 89.131902 found after 50.911737 sec and
+OA0003I New best feasible of 88.403131 found after 116.06268 sec and
+OA0003I New best feasible of 88.348494 found after 347.69102 sec and
+OA0003I New best feasible of 88.322102 found after 347.73975 sec and
+OA0003I New best feasible of 88.313864 found after 347.77447 sec and
+OA0003I New best feasible of 88.233504 found after 347.82524 sec and
+OA0003I New best feasible of 88.191383 found after 522.27485 sec and
+OA0003I New best feasible of 88.141102 found after 1055.1619 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1810.6694552898407 seconds
+objective value of the feasible point is: 88.14110188600999
+############################
+Testing problem  smallinvDAXr5b200-220
+############################
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 369.40984 found after 0.008081 sec and
+OA0015I Major iteration 1 ub: 369.40614
+OA0003I New best feasible of 364.52034 found after 0.020808 sec and
+OA0015I Major iteration 2 ub: 364.51669
+OA0003I New best feasible of 360.32213 found after 0.039556 sec and
+OA0015I Major iteration 3 ub: 360.31852
+OA0003I New best feasible of 266.98731 found after 0.055372 sec and
+OA0003I New best feasible of 264.05385 found after 0.117214 sec and
+OA0003I New best feasible of 263.43982 found after 0.147246 sec and
+OA0003I New best feasible of 259.55019 found after 0.172036 sec and
+OA0003I New best feasible of 258.04355 found after 0.211134 sec and
+OA0003I New best feasible of 201.28002 found after 0.231423 sec and
+OA0003I New best feasible of 198.43367 found after 0.362675 sec and
+OA0003I New best feasible of 190.03514 found after 0.379869 sec and
+OA0003I New best feasible of 177.11527 found after 0.482262 sec and
+OA0003I New best feasible of 169.13743 found after 3.211456 sec and
+OA0003I New best feasible of 169.07503 found after 27.554318 sec and
+OA0003I New best feasible of 167.90194 found after 45.343275 sec and
+OA0003I New best feasible of 167.31225 found after 232.79215 sec and
+OA0003I New best feasible of 167.05561 found after 232.79352 sec and
+OA0003I New best feasible of 166.39323 found after 233.04859 sec and
+OA0003I New best feasible of 164.09175 found after 480.76465 sec and
+OA0003I New best feasible of 164.08585 found after 481.12921 sec and
+OA0003I New best feasible of 162.70334 found after 564.2796 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1814.6239314079285 seconds
+objective value of the feasible point is: 162.70333644401003
+############################
+Testing problem  squfl010-025
+############################
+runtime for lower bound epi: 0.019178390502929688
+lower bound is: 105.94261492187441
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 661.02754 found after 0.09945 sec and
+OA0015I Major iteration 1 ub: 661.02093
+OA0003I New best feasible of 631.77292 found after 0.228412 sec and
+OA0015I Major iteration 2 ub: 631.7666
+OA0003I New best feasible of 599.03856 found after 0.589579 sec and
+OA0015I Major iteration 3 ub: 599.03257
+OA0003I New best feasible of 661.02754 found after 0.643713 sec and
+OA0003I New best feasible of 620.43561 found after 0.751636 sec and
+OA0003I New best feasible of 325.04418 found after 0.80431 sec and
+OA0003I New best feasible of 258.47927 found after 0.84956 sec and
+OA0003I New best feasible of 253.16671 found after 0.903793 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 1.1224861145019531 seconds
+objective value of the feasible point is: 253.1667134917375
+############################
+Testing problem  squfl010-040
+############################
+runtime for lower bound epi: 0.02433180809020996
+lower bound is: 136.83817224702972
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 1227.2794 found after 0.18266 sec and
+OA0015I Major iteration 1 ub: 1227.2671
+OA0003I New best feasible of 1026.9635 found after 0.604 sec and
+OA0015I Major iteration 2 ub: 1026.9532
+OA0003I New best feasible of 831.80628 found after 0.924381 sec and
+OA0015I Major iteration 3 ub: 831.79796
+OA0003I New best feasible of 1227.2794 found after 1.016444 sec and
+OA0003I New best feasible of 626.62045 found after 1.063525 sec and
+OA0003I New best feasible of 515.44343 found after 1.134947 sec and
+OA0003I New best feasible of 442.71698 found after 1.189559 sec and
+OA0003I New best feasible of 312.11388 found after 1.234923 sec and
+OA0003I New best feasible of 301.65179 found after 2.030335 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 2.9792754650115967 seconds
+objective value of the feasible point is: 301.6517925918626
+############################
+Testing problem  squfl010-080
+############################
+runtime for lower bound epi: 0.04430365562438965
+lower bound is: 258.9047410282497
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 1577.9101 found after 0.319191 sec and
+OA0015I Major iteration 1 ub: 1577.8943
+OA0003I New best feasible of 1577.9101 found after 10.07749 sec and
+OA0003I New best feasible of 1035.2069 found after 10.192045 sec and
+OA0003I New best feasible of 825.22577 found after 10.671931 sec and
+OA0003I New best feasible of 766.07587 found after 11.053872 sec and
+OA0003I New best feasible of 705.25902 found after 11.46943 sec and
+OA0003I New best feasible of 666.50583 found after 11.578987 sec and
+OA0003I New best feasible of 659.67422 found after 11.958758 sec and
+OA0003I New best feasible of 639.41776 found after 12.34151 sec and
+OA0003I New best feasible of 613.07056 found after 16.462357 sec and
+OA0003I New best feasible of 612.9892 found after 19.234835 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 22.433836460113525 seconds
+objective value of the feasible point is: 612.9891953831667
+############################
+Testing problem  squfl015-060
+############################
+runtime for lower bound epi: 0.051432132720947266
+lower bound is: 152.4670201153848
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 1654.7691 found after 0.374218 sec and
+OA0015I Major iteration 1 ub: 1654.7526
+OA0003I New best feasible of 1562.8113 found after 0.770524 sec and
+OA0015I Major iteration 2 ub: 1562.7957
+OA0003I New best feasible of 1415.5771 found after 1.195986 sec and
+OA0015I Major iteration 3 ub: 1415.563
+OA0003I New best feasible of 627.06916 found after 1.418228 sec and
+OA0003I New best feasible of 422.51237 found after 1.633454 sec and
+OA0003I New best feasible of 396.71806 found after 4.535493 sec and
+OA0003I New best feasible of 375.59081 found after 8.315689 sec and
+OA0003I New best feasible of 366.62177 found after 8.411718 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 30.324856519699097 seconds
+objective value of the feasible point is: 366.6217706116134
+############################
+Testing problem  squfl015-080
+############################
+runtime for lower bound epi: 0.06887245178222656
+lower bound is: 172.57520703492946
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 2070.1065 found after 0.482457 sec and
+OA0015I Major iteration 1 ub: 2070.0858
+OA0003I New best feasible of 1606.4843 found after 1.407068 sec and
+OA0015I Major iteration 2 ub: 1606.4682
+OA0003I New best feasible of 1560.7574 found after 7.19921 sec and
+OA0015I Major iteration 3 ub: 1560.7418
+OA0003I New best feasible of 2070.1065 found after 7.476088 sec and
+OA0003I New best feasible of 1019.077 found after 7.709733 sec and
+OA0003I New best feasible of 854.48819 found after 8.109009 sec and
+OA0003I New best feasible of 633.07675 found after 8.526888 sec and
+OA0003I New best feasible of 603.48237 found after 9.205009 sec and
+OA0003I New best feasible of 527.18452 found after 9.314532 sec and
+OA0003I New best feasible of 510.42733 found after 9.455343 sec and
+OA0003I New best feasible of 494.83532 found after 10.371639 sec and
+OA0003I New best feasible of 484.14503 found after 10.566605 sec and
+OA0003I New best feasible of 471.02162 found after 11.182191 sec and
+OA0003I New best feasible of 464.87965 found after 12.134612 sec and
+OA0003I New best feasible of 460.85097 found after 12.370281 sec and
+OA0003I New best feasible of 460.75075 found after 19.701752 sec and
+OA0003I New best feasible of 455.21882 found after 22.474627 sec and
+OA0003I New best feasible of 452.0152 found after 144.48524 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 159.65466117858887 seconds
+objective value of the feasible point is: 452.0152033323546
+############################
+Testing problem  squfl020-040
+############################
+runtime for lower bound epi: 0.04292488098144531
+lower bound is: 98.14308151602174
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 1338.5934 found after 10.146771 sec and
+OA0003I New best feasible of 1149.9454 found after 10.380542 sec and
+OA0003I New best feasible of 842.96671 found after 10.722901 sec and
+OA0003I New best feasible of 432.08033 found after 10.877415 sec and
+OA0003I New best feasible of 388.36032 found after 11.009422 sec and
+OA0003I New best feasible of 286.41858 found after 11.566298 sec and
+OA0003I New best feasible of 241.30696 found after 12.351149 sec and
+OA0003I New best feasible of 240.23317 found after 17.974716 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 23.408597469329834 seconds
+objective value of the feasible point is: 240.23316788172644
+############################
+Testing problem  squfl020-050
+############################
+runtime for lower bound epi: 0.055541038513183594
+lower bound is: 99.24466489905393
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 1378.4969 found after 0.417278 sec and
+OA0015I Major iteration 1 ub: 1378.4831
+OA0003I New best feasible of 1265.8198 found after 1.133614 sec and
+OA0015I Major iteration 2 ub: 1265.8071
+OA0003I New best feasible of 1087.6154 found after 1.541935 sec and
+OA0015I Major iteration 3 ub: 1087.6046
+OA0003I New best feasible of 1378.4969 found after 1.768132 sec and
+OA0003I New best feasible of 1087.6154 found after 1.921832 sec and
+OA0003I New best feasible of 653.61318 found after 2.487646 sec and
+OA0003I New best feasible of 641.27197 found after 2.697012 sec and
+OA0003I New best feasible of 444.98632 found after 2.939902 sec and
+OA0003I New best feasible of 375.39584 found after 3.126345 sec and
+OA0003I New best feasible of 345.96376 found after 3.649511 sec and
+OA0003I New best feasible of 337.61068 found after 5.767267 sec and
+OA0003I New best feasible of 328.87307 found after 7.405527 sec and
+OA0003I New best feasible of 327.04358 found after 7.530853 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 32.0827853679657 seconds
+objective value of the feasible point is: 327.04358340781386
+############################
+Testing problem  squfl020-150
+############################
+runtime for lower bound epi: 0.1593475341796875
+lower bound is: 226.34408714569338
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 5634.9396 found after 1.458565 sec and
+OA0015I Major iteration 1 ub: 5634.8832
+OA0003I New best feasible of 2941.0877 found after 2.971701 sec and
+OA0015I Major iteration 2 ub: 2941.0583
+OA0003I New best feasible of 5634.9396 found after 10.398768 sec and
+OA0003I New best feasible of 2121.8704 found after 513.35209 sec and
+OA0003I New best feasible of 1814.7073 found after 514.00026 sec and
+OA0003I New best feasible of 1230.8462 found after 515.98081 sec and
+OA0003I New best feasible of 1179.6018 found after 517.62938 sec and
+OA0003I New best feasible of 1092.2407 found after 524.30226 sec and
+OA0003I New best feasible of 891.52752 found after 526.73623 sec and
+OA0003I New best feasible of 891.06477 found after 533.35409 sec and
+OA0003I New best feasible of 780.73153 found after 534.13119 sec and
+OA0003I New best feasible of 745.82057 found after 535.1183 sec and
+OA0003I New best feasible of 713.64336 found after 543.51201 sec and
+OA0003I New best feasible of 705.09339 found after 552.0343 sec and
+OA0003I New best feasible of 679.36687 found after 555.84699 sec and
+OA0003I New best feasible of 675.42467 found after 559.92776 sec and
+OA0003I New best feasible of 628.79669 found after 560.85411 sec and
+OA0003I New best feasible of 606.75196 found after 781.02987 sec and
+OA0003I New best feasible of 577.22862 found after 781.34341 sec and
+OA0003I New best feasible of 575.28665 found after 1051.4894 sec and
+OA0003I New best feasible of 571.37888 found after 1057.5101 sec and
+OA0003I New best feasible of 568.34817 found after 1205.6368 sec and
+OA0003I New best feasible of 562.06897 found after 1458.2795 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1815.4321296215057 seconds
+objective value of the feasible point is: 562.068965563812
+############################
+Testing problem  squfl025-025
+############################
+runtime for lower bound epi: 0.0397191047668457
+lower bound is: 68.02722700852902
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 492.10986 found after 10.125142 sec and
+OA0003I New best feasible of 258.66537 found after 10.468408 sec and
+OA0003I New best feasible of 244.44288 found after 10.733469 sec and
+OA0003I New best feasible of 178.62637 found after 10.801922 sec and
+OA0003I New best feasible of 168.80718 found after 10.901076 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 14.624966382980347 seconds
+objective value of the feasible point is: 168.8071778793502
+############################
+Testing problem  squfl025-030
+############################
+runtime for lower bound epi: 0.04377627372741699
+lower bound is: 81.32526672802437
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 486.13608 found after 10.07437 sec and
+OA0003I New best feasible of 383.03956 found after 10.429218 sec and
+OA0003I New best feasible of 378.95787 found after 10.717109 sec and
+OA0003I New best feasible of 306.11282 found after 10.83279 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 12.561836004257202 seconds
+objective value of the feasible point is: 306.1128157438202
+############################
+Testing problem  squfl025-040
+############################
+runtime for lower bound epi: 0.056607723236083984
+lower bound is: 76.87034243207533
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 1190.6893 found after 0.436513 sec and
+OA0015I Major iteration 1 ub: 1190.6774
+OA0003I New best feasible of 1065.5798 found after 0.905 sec and
+OA0015I Major iteration 2 ub: 1065.5692
+OA0003I New best feasible of 915.79719 found after 1.321456 sec and
+OA0015I Major iteration 3 ub: 915.78804
+OA0003I New best feasible of 1190.6893 found after 1.594879 sec and
+OA0003I New best feasible of 503.88953 found after 1.712068 sec and
+OA0003I New best feasible of 423.97978 found after 2.045685 sec and
+OA0003I New best feasible of 417.20667 found after 2.49986 sec and
+OA0003I New best feasible of 310.19394 found after 2.733263 sec and
+OA0003I New best feasible of 250.75256 found after 2.961815 sec and
+OA0003I New best feasible of 235.08625 found after 5.738872 sec and
+OA0003I New best feasible of 225.33634 found after 6.937908 sec and
+OA0003I New best feasible of 214.62235 found after 7.142725 sec and
+OA0003I New best feasible of 210.18567 found after 11.007062 sec and
+OA0003I New best feasible of 206.26098 found after 12.529929 sec and
+OA0003I New best feasible of 204.12622 found after 18.810031 sec and
+OA0003I New best feasible of 203.10001 found after 23.192046 sec and
+OA0003I New best feasible of 202.18249 found after 31.030713 sec and
+OA0003I New best feasible of 197.33383 found after 34.583005 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 1241.50137257576 seconds
+objective value of the feasible point is: 197.3338336126769
+############################
+Testing problem  squfl030-100
+############################
+runtime for lower bound epi: 0.18628287315368652
+lower bound is: 123.88982551128227
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 2334.0268 found after 10.752016 sec and
+OA0003I New best feasible of 1297.6582 found after 13.706219 sec and
+OA0003I New best feasible of 1127.3981 found after 14.009019 sec and
+OA0003I New best feasible of 851.13261 found after 16.416174 sec and
+OA0003I New best feasible of 773.29147 found after 17.031242 sec and
+OA0003I New best feasible of 646.91291 found after 17.900291 sec and
+OA0003I New best feasible of 620.82601 found after 557.83103 sec and
+OA0003I New best feasible of 582.89089 found after 559.49199 sec and
+OA0003I New best feasible of 577.10449 found after 560.69627 sec and
+OA0003I New best feasible of 520.89092 found after 561.65744 sec and
+OA0003I New best feasible of 506.03156 found after 567.12338 sec and
+OA0003I New best feasible of 495.73547 found after 568.94202 sec and
+OA0003I New best feasible of 489.76929 found after 598.59775 sec and
+OA0003I New best feasible of 481.58828 found after 614.44517 sec and
+OA0003I New best feasible of 472.02458 found after 657.57444 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1802.7260398864746 seconds
+objective value of the feasible point is: 472.0245834813539
+############################
+Testing problem  squfl030-150
+############################
+runtime for lower bound epi: 0.2790069580078125
+lower bound is: 158.92646626686016
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 4021.7424 found after 10.516691 sec and
+OA0003I New best feasible of 1554.4105 found after 14.041369 sec and
+OA0003I New best feasible of 1080.7507 found after 18.62285 sec and
+OA0003I New best feasible of 1063.9244 found after 9709.9459 sec and
+OA0003I New best feasible of 810.13675 found after 9710.6687 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 10093.954177379608 seconds
+objective value of the feasible point is: 810.1367457465391
+############################
+Testing problem  squfl040-080
+############################
+runtime for lower bound epi: 0.20930075645446777
+lower bound is: 91.49209345565941
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 1578.8399 found after 10.606304 sec and
+OA0003I New best feasible of 825.28446 found after 12.094067 sec and
+OA0003I New best feasible of 575.529 found after 13.055692 sec and
+OA0003I New best feasible of 534.42761 found after 16.479663 sec and
+OA0003I New best feasible of 518.97141 found after 17.163561 sec and
+OA0003I New best feasible of 457.0693 found after 18.379823 sec and
+OA0003I New best feasible of 430.751 found after 24.310009 sec and
+OA0003I New best feasible of 357.25951 found after 25.295335 sec and
+OA0003I New best feasible of 317.27104 found after 25.996805 sec and
+OA0003I New best feasible of 304.36239 found after 30.152668 sec and
+OA0003I New best feasible of 282.43972 found after 31.055269 sec and
+OA0003I New best feasible of 271.15604 found after 32.048727 sec and
+
+ 	"Not finished"
+Solution process went through smoothly
+Found a feasible point in 1950.9001369476318 seconds
+objective value of the feasible point is: 271.1560382659193
+############################
+Testing problem  st_miqp1
+############################
+runtime for lower bound epi: 0.008905172348022461
+lower bound is: 228.02082869730052
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 281 found after 0.01243 sec and
+OA0015I Major iteration 1 ub: 280.99719
+OA0003I New best feasible of 281 found after 0.040392 sec and
+OA0015I Major iteration 1 ub: 280.99719
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.09705162048339844 seconds
+objective value of the feasible point is: 280.99999999061527
+############################
+Testing problem  st_miqp2
+############################
+runtime for lower bound epi: 0.009536266326904297
+lower bound is: -5.630104463983515
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 605 found after 0.010472 sec and
+OA0015I Major iteration 1 ub: 604.99395
+OA0003I New best feasible of 537 found after 0.021587 sec and
+OA0015I Major iteration 2 ub: 536.99463
+OA0003I New best feasible of 473 found after 0.032389 sec and
+OA0015I Major iteration 3 ub: 472.99527
+OA0003I New best feasible of 89 found after 0.048469 sec and
+OA0003I New best feasible of 5 found after 0.058456 sec and
+OA0003I New best feasible of 2 found after 0.063758 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.0883183479309082 seconds
+objective value of the feasible point is: 1.9999999900099787
+############################
+Testing problem  st_miqp3
+############################
+runtime for lower bound epi: 0.009313106536865234
+lower bound is: -6.000000027493845
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -9.99e-09 found after 0.008653 sec and
+OA0015I Major iteration 1 ub: -9.9899001e-09
+OA0003I New best feasible of -9.99e-09 found after 0.020419 sec and
+OA0015I Major iteration 2 ub: -9.9899001e-09
+OA0003I New best feasible of -9.99e-09 found after 0.028572 sec and
+OA0015I Major iteration 3 ub: -9.9899001e-09
+OA0003I New best feasible of -9.99e-09 found after 0.034296 sec and
+OA0003I New best feasible of -6 found after 0.036304 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.05906796455383301 seconds
+objective value of the feasible point is: -6.000000001512606
+############################
+Testing problem  st_miqp4
+############################
+runtime for lower bound epi: 0.00982809066772461
+lower bound is: -4885.879253227468
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of 4.999985 found after 0.01808 sec and
+OA0015I Major iteration 1 ub: 4.999935
+OA0003I New best feasible of -4574 found after 10.012636 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 11.498713731765747 seconds
+objective value of the feasible point is: -4574.000004459961
+############################
+Testing problem  st_test1
+############################
+runtime for lower bound epi: 0.009020805358886719
+lower bound is: -63.324
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -9.9900001e-09 found after 0.005284 sec and
+OA0015I Major iteration 1 ub: -9.9899002e-09
+OA0003I New best feasible of -9.9900001e-09 found after 0.01417 sec and
+OA0015I Major iteration 2 ub: -9.9899002e-09
+OA0003I New best feasible of -9.9900001e-09 found after 0.022988 sec and
+OA0015I Major iteration 3 ub: -9.9899002e-09
+OA0003I New best feasible of -9.9900001e-09 found after 0.027057 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.05231761932373047 seconds
+objective value of the feasible point is: -9.990000070061254e-09
+############################
+Testing problem  st_test2
+############################
+runtime for lower bound epi: 0.01078343391418457
+lower bound is: -25.102729159850263
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -2 found after 0.011924 sec and
+OA0015I Major iteration 1 ub: -1.99998
+OA0003I New best feasible of -2 found after 0.019372 sec and
+OA0015I Major iteration 2 ub: -1.99998
+OA0003I New best feasible of -2 found after 0.030553 sec and
+OA0015I Major iteration 3 ub: -1.99998
+OA0003I New best feasible of -2 found after 0.045547 sec and
+OA0015I Major iteration 1 ub: -1.99998
+OA0003I New best feasible of -9.25 found after 0.050825 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.08176565170288086 seconds
+objective value of the feasible point is: -9.25000000999
+############################
+Testing problem  st_test3
+############################
+runtime for lower bound epi: 0.011295080184936523
+lower bound is: -12.934053156097852
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -9.9900047e-09 found after 0.015398 sec and
+OA0015I Major iteration 1 ub: -9.9899048e-09
+OA0003I New best feasible of -9.9900047e-09 found after 0.028918 sec and
+OA0015I Major iteration 2 ub: -9.9899048e-09
+OA0003I New best feasible of -9.9900047e-09 found after 0.040643 sec and
+OA0015I Major iteration 3 ub: -9.9899048e-09
+OA0003I New best feasible of -9.9900047e-09 found after 0.062152 sec and
+OA0015I Major iteration 1 ub: -9.9899048e-09
+OA0003I New best feasible of -7 found after 0.066566 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.09788894653320312 seconds
+objective value of the feasible point is: -7.000000009142818
+############################
+Testing problem  st_test4
+############################
+runtime for lower bound epi: 0.009931564331054688
+lower bound is: -12.527031112123838
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -6 found after 0.010116 sec and
+OA0015I Major iteration 1 ub: -5.99994
+OA0003I New best feasible of -6 found after 0.022334 sec and
+OA0015I Major iteration 2 ub: -5.99994
+OA0003I New best feasible of -6 found after 0.034818 sec and
+OA0015I Major iteration 3 ub: -5.99994
+OA0003I New best feasible of -6 found after 0.051601 sec and
+OA0015I Major iteration 1 ub: -5.99994
+OA0003I New best feasible of -9.99e-09 found after 0.058389 sec and
+OA0003I New best feasible of -6 found after 0.062732 sec and
+OA0015I Major iteration 1 ub: -5.99994
+OA0003I New best feasible of -7 found after 0.06271 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.09728217124938965 seconds
+objective value of the feasible point is: -7.00000000999
+############################
+Testing problem  st_testgr1
+############################
+runtime for lower bound epi: 0.009652376174926758
+lower bound is: -13.398055472001634
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -5.28435 found after 10.019583 sec and
+OA0003I New best feasible of -5.2901 found after 10.050797 sec and
+
+ 	"Aborted"
+Could not solve this problem due to the following error:
+Cannot load a SolverResults object with bad status: error
+############################
+Testing problem  st_testgr3
+############################
+runtime for lower bound epi: 0.011234045028686523
+lower bound is: -22.07109631078128
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -8.67625 found after 0.014849 sec and
+OA0015I Major iteration 1 ub: -8.6761632
+OA0003I New best feasible of -8.67625 found after 0.027993 sec and
+OA0015I Major iteration 2 ub: -8.6761632
+OA0003I New best feasible of -8.67625 found after 0.039057 sec and
+OA0015I Major iteration 3 ub: -8.6761632
+OA0003I New best feasible of -20.53545 found after 0.050278 sec and
+OA0003I New best feasible of -20.55345 found after 0.061236 sec and
+OA0003I New best feasible of -20.59 found after 0.083676 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.11935615539550781 seconds
+objective value of the feasible point is: -20.590000009989996
+############################
+Testing problem  st_testph4
+############################
+runtime for lower bound epi: 0.009445428848266602
+lower bound is: -82.96153872575677
+Performing FCPA on epigraph reformulation
+using b-hyb
+Bonmin 1.8.7 using Cbc 2.10.0 and Ipopt 3.12.12
+bonmin: bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+bonmin.algorithm=b-hyb
+bonmin.milp_solver=Cbc_D
+bonmin.time_limit=1800
+bonmin.milp_log_level=0
+bonmin.nlp_log_level=0
+bonmin.fp_log_level=0
+bonmin.bb_log_level=0
+
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+OA0003I New best feasible of -9.99e-09 found after 0.012229 sec and
+OA0015I Major iteration 1 ub: -9.9899001e-09
+OA0003I New best feasible of -9.99e-09 found after 0.023643 sec and
+OA0015I Major iteration 2 ub: -9.9899001e-09
+OA0003I New best feasible of -9.99e-09 found after 0.031329 sec and
+OA0015I Major iteration 3 ub: -9.9899001e-09
+OA0003I New best feasible of -80.5 found after 0.048588 sec and
+
+ 	"Finished"
+Solution process went through smoothly
+Found a feasible point in 0.0685417652130127 seconds
+objective value of the feasible point is: -80.50000000999

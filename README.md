@@ -11,7 +11,7 @@
 ## General info
 This project is a prototype of the IPCP that can be applied to Pyomo models. It is mainly intended for researchers to experiment and compare computational results on their MICP instances and to enable an easy reproducibility of the computational results of the above article. To enable reproducibility, we provide the minlplib instances as pyomo models that were used for the numerical comparison.
 
-Under a Gams license, you may convert Gams-models to Pyomo models and then apply the IPCP. The process of converting models is described [here](https://www.gams.com/latest/docs/S_CONVERT.html). 
+As a gerenal note, under a Gams license, you may convert any (other) Gams-models to a Pyomo model and then apply the IPCP. The process of converting models is described [here](https://www.gams.com/latest/docs/S_CONVERT.html). 
 
 ## Setup
 The method has been tested under Python 3.7 using Pyomo 5.7 as the main framework. For solving the sub-LPs and the NLP outlined in the postprocessing step, it needs an LP-solver and an NLP-solver that can be accessed via Pyomo. 

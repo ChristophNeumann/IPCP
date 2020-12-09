@@ -5,6 +5,7 @@
 * [General info](#general-info)
 * [Setup](#setup)
 * [Code Examples](#code-examples)
+* [Reproducing the experiments](#reproducing-the-experiments)
 * [Contact](#contact)
 
 ## General info

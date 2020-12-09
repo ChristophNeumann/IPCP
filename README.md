@@ -1,5 +1,5 @@
 # Inner Parallel Cutting Plane Algorithm
-> This project implements the Inner Parallel Cutting Plane Method (IPCP) for convex MINLPs which is outlined [in this article](http://www.optimization-online.org/DB_HTML/2018/11/6947.html).
+> This project implements the Inner Parallel Cutting Plane Method (IPCP) for convex MINLPs which is outlined in the article [Generating feasible points for mixed-integer convex optimization problems by inner parallel cuts](http://www.optimization-online.org/DB_HTML/2018/11/6947.html).
 
 ## Table of contents
 * [General info](#general-info)
@@ -8,12 +8,12 @@
 * [Contact](#contact)
 
 ## General info
-This project is a prototype of the IPCP that can be applied to Pyomo models. It is mainly intended for researchers to experiment and compare computational results on their MICP instances and to enable an easy reproducibility of the computational results of the above article.
+This project is a prototype of the IPCP that can be applied to Pyomo models. It is mainly intended for researchers to experiment and compare computational results on their MICP instances and to enable an easy reproducibility of the computational results of the above article. To enable reproducibility, we provide the minlplib instances as pyomo models that were used for the numerical comparison.
 
 Under a Gams license, you may convert Gams-models to Pyomo models and then apply the IPCP. The process of converting models is described [here](https://www.gams.com/latest/docs/S_CONVERT.html). 
 
 ## Setup
-The method has been tested under Python 3.7 using Pyomo 5.6.7. For solving the sub-LPs and the NLP outlined in the postprocessing step, it needs an LP-solver and an NLP-solver that can be accessed via Pyomo. 
+The method has been tested under Python 3.7 using Pyomo 5.6.7 as the main framework. For solving the sub-LPs and the NLP outlined in the postprocessing step, it needs an LP-solver and an NLP-solver that can be accessed via Pyomo. 
 
 The current version uses Cbc to access Clp as an LP-solver, which is available in [this github repository](https://github.com/coin-or/Cbc). As NLP-solver we currently use IPOPT, which is available in [this github repository](https://github.com/coin-or/Ipopt) (we recomment using coinbrew for the installation).
 
@@ -22,7 +22,7 @@ As an alternative, [Bonmin](https://projects.coin-or.org/Bonmin/wiki/GettingStar
 Note that when using a different LP-solver (e.g. Cplex, Gurobi), you probably need to change the lines where the solver time is queried (as the pyomo interface is different for different LP-solvers).
 
 ## Code Examples
-The following example runs the IPCP on a testinstances from 
+The following example runs the IPCP on a testinstance from 
 
 Jan Kronqvist, Andreas Lundell, and Tapio Westerlund. 
 "The extended supporting hyperplane algorithm for convex mixed-integer nonlinear programming." 
@@ -55,6 +55,16 @@ Objective value is  -20.90361501458559
 The last iterate after the postprocessing step is:  [ 8.90361501 12.        ]
 It took 15 LPs to compute this point.
 ```
+
+## Reproducing the experiments
+
+The computational experiments from  [Generating feasible points for mixed-integer convex optimization problems by inner parallel cuts](http://www.optimization-online.org/DB_HTML/2018/11/6947.html) may be reproduced by running the scripts 
+
+```
+IPCP_on_granular_instances
+IPCP_on_nongranular_instances
+```
+Note that mainly due to interfacing times between Pyomo and the LP/NLP solver, applying the IPCP to problems may take significantly longer than the reported run time. The latter corresponds to the time spent in the LP/NLP solver and thus excludes interfacing times and is closer to the time the method would actually take when integrated into a solver.
 
 ## Contact
 Christoph.Neumann@kit.edu

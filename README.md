@@ -22,7 +22,7 @@ As an alternative, [Bonmin](https://projects.coin-or.org/Bonmin/wiki/GettingStar
 
 Note that when using a different LP-solver (e.g. Cplex, Gurobi), you probably need to change the lines where the solver time is queried (as the pyomo interface is different for different LP-solvers).
 
-Further dependencies are ```numpy``` and ```pandas``` which can both can be obtained via pip.
+Further dependencies are ```numpy``` and ```pandas``` which can both be obtained via pip.
 
 You can run the test 
 ```
@@ -65,7 +65,7 @@ The last iterate after the postprocessing step is:  [ 8.90361501 12.        ]
 It took 15 LPs to compute this point.
 ```
 
-This example can also be run from the folder ```/testinstances``` using the command ```python ex_ex_sup_hyp_1.py```. In this folder, two other examples are available.
+This example can also be run from the folder ```/testinstances``` using the command ```python ex_ex_sup_hyp_1.py```. In this folder, two other examples are also available.
 
 Changing algorithm settings can be done in the params.py file.
 

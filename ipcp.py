@@ -159,8 +159,8 @@ def add_reversed_IPS_cuts(original_model, eips, v_ipcp, x_ipcp, is_epi):
             (current_cut.lower, clone_expression(current_cut.body, substitution_map), current_cut.upper + beta / 2))
         assert not (current_cut.lower)
 
-    print(g_max_lin(original_model))
-    print(g_max(original_model))
+    print("Value of maximum constraint violation of linear constraints:",g_max_lin(original_model))
+    print("Value of maximum constraint violation of the nonlinear constraints:", constr_value(g_max))
 
     if is_epi:
         original_model.alpha_epi.setub(v_ipcp)

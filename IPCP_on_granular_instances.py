@@ -1,7 +1,5 @@
 from algorithm_analysis import *
 import logging
-pd.set_option('display.max_rows', None)
-pd.set_option('display.max_columns', None)
 from datetime import datetime
 sys.setrecursionlimit(10000) # For larger Problems
 logging.basicConfig(level=logging.INFO)

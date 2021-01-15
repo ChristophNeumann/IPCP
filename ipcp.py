@@ -134,7 +134,7 @@ def IPCP(m, mode=params.mode, eps=params.epsilon, maxiter=params.max_iter, only_
 
     else:
         x_pp = []
-        max_constr_violation = runtime_PP = v_pp = np.inf
+        max_constr_violation = max_constr_violation_pp = runtime_PP = v_pp = np.inf
         obj_value = float('inf')
         x_nu = []
 

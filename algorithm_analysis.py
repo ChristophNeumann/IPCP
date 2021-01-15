@@ -9,6 +9,8 @@ import pickle
 import pandas as pd
 sys.path.append('minlplib_instances')  # For loading models as modules
 import params
+pd.set_option('display.max_columns', 30)
+pd.set_option('display.width', 1000)
 #sys.path.append('problem_information')
 
 def save_obj(obj, name ):

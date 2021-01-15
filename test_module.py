@@ -1,5 +1,5 @@
 import unittest
-from testinstances.ex_paper import *
+from testinstances.ex_ipcp_paper import *
 import sys
 import importlib.util
 from model_manipulation import *
@@ -13,13 +13,13 @@ import logging
 class MyTestCase(unittest.TestCase):
 
     def test_cutting_plane_method_for_paper_example(self):
-        testinstance1 = importlib.import_module('ex_paper').model
+        testinstance1 = importlib.import_module('ex_ipcp_paper').model
         result = IPCP(testinstance1)
         self.assertTrue(all(result['x']==np.array([3,3])))
         print('IPCP correctly computes the optimal point for the example from the paper')
 
     def test_reversed_ips_cuts(self):
-        testinstance1 = importlib.import_module('ex_paper').model
+        testinstance1 = importlib.import_module('ex_ipcp_paper').model
         result = IPCP(testinstance1)
         add_reversed_IPS_cuts(testinstance1, result, False)
         model_vars = get_model_vars(testinstance1)

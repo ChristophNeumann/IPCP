@@ -2,7 +2,7 @@ from algorithm_analysis import *
 import logging
 from datetime import datetime
 sys.setrecursionlimit(10000) # For larger Problems
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.WARNING)
 testbed = 'granular_instances'
 #write_output_to_file('IPCP_debug')
 test_problems = read_test_instances(testbed)

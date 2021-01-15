@@ -14,7 +14,7 @@ This project is a prototype of the IPCP that can be applied to Pyomo models. It 
 As a gerenal note, under a Gams license, you may convert any (other) Gams-model to a Pyomo model and then apply the IPCP. This process is described [here](https://www.gams.com/latest/docs/S_CONVERT.html). 
 
 ## Setup
-The method has been tested under Python 3.7 using Pyomo 5.7 as the main framework. For solving the sub-LPs and the NLP outlined in the postprocessing step, it needs an LP-solver and an NLP-solver that can be accessed via Pyomo. (In the paper Pyomo 5.6.7 is used which now runs into troubles with other updated packages so we recommend installing Pyomo 5.7).
+The method has been tested under Python 3.7 using Pyomo 5.7 as the main framework. For solving the sub-LPs and the NLP outlined in the postprocessing step, it needs an LP-solver and an NLP-solver that can be accessed via Pyomo. 
 
 The current version uses Cbc to access Clp as an LP-solver, which is available in [this github repository](https://github.com/coin-or/Cbc). As NLP-solver we currently use IPOPT, which is available in [this github repository](https://github.com/coin-or/Ipopt) (we recomment using coinbrew for the installation).
 
@@ -65,7 +65,7 @@ The last iterate after the postprocessing step is:  [ 8.90361501 12.        ]
 It took 15 LPs to compute this point.
 ```
 
-This example can also be run from the folder ```/testinstances``` using the command ```python ex_ex_sup_hyp_1.py```. In this folder, two other examples are also available.
+This example can also be run from the folder ```/testinstances``` using the command ```python ex_ex_sup_hyp_1.py```. In this folder, three other examples are also available.
 
 Changing algorithm settings can be done in the params.py file.
 

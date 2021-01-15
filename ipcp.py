@@ -20,6 +20,7 @@ def IPCP(m, mode=params.mode, eps=params.epsilon, maxiter=params.max_iter, only_
         'successful' -- True/False, indicating whether the method was able to generate a feasible point
         'model' -- the model which contains the last enlarged inner parallel set, including all cutting planes
         'message' -- the last solver message
+        'iterations -- Number of iterations - corresponds to the number of sub LPs
         'runtime'-- cumulative runtimes of all sub LPs
         'runtime_pp' -- Cumulative runtimes of all sub LPs plus that of the postprocessing step
         'g_vals' -- the values of the maximum violated constraints of the iterates
@@ -27,7 +28,9 @@ def IPCP(m, mode=params.mode, eps=params.epsilon, maxiter=params.max_iter, only_
         'obj_pp' -- objective value of the generated feasible point after postprocessing
         'x' -- last iterate (feasible point) before postprocessing
         'x_pp' -- last iterate (feasible point) after postprocessing
-        'obj_vals' -- objective values of the iterates.}
+        'obj_vals' -- objective values of the iterates.
+        'primal_feas' -- maximum constraint violation of the generated feasible point before postprocessing
+        'primal_feas_pp' -- maximum constraint violation of the generated feasible point after postprocessing
     """
 
     vars_master = get_model_vars(m)

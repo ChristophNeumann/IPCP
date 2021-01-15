@@ -1,6 +1,7 @@
 import importlib.util
 import sys
 import csv
+import importlib.util
 import logging
 from ipcp import *
 import os
@@ -81,6 +82,7 @@ def evaluate_IPCP_empty_IPS(test_problems, mode ='INNER', epsilon = params.epsil
     result_matrix = pd.concat([result_data,results_FCPA],axis=1)
     return result_matrix
 
+
 def run_IPCP(test_problems):
 
     result_matrix = []
@@ -90,6 +92,8 @@ def run_IPCP(test_problems):
 
         print('############################')
         print('Testing problem ', name)
+        cols = ['obj', 'MILP lb', 'MILP init lb', 'iterations', 'primal_feas', 'primal_feas_pp',
+                'time IPCP', 'time MILP']
         original_model = load_pyomo_model(name)
         current_model = original_model.clone()
         current_model, red_successful, is_epi = preprocess_model(current_model)
@@ -98,17 +102,26 @@ def run_IPCP(test_problems):
 
         if red_successful:
             result = IPCP(current_model, params.mode, params.epsilon, params.max_iter, only_epi[idx])
+            lower_bound_MILP, lower_bound_initial_MILP, runtime_lb_MILP = \
+                compute_RIPCs_lower_bound(current_model, result, is_epi)
             print_IPCP_results(result)
             del result['model']
-            result_matrix.append([result['obj_pp'], result['obj'], result['iterations'],
-                                 result['runtime_pp'], result['runtime']])
+            obj_IPCP = result['obj_pp']
+            if (result['primal_feas_pp'] > params.epsilon) & (
+                    result['primal_feas'] < result['primal_feas_pp']):
+                print("Using point before post processing for reporting the objective value")
+                obj_IPCP = result['obj']
+            result_matrix.append([obj_IPCP, lower_bound_MILP,lower_bound_initial_MILP,
+                                  result['iterations'], result['primal_feas'],result['primal_feas_pp'],
+                                 result['runtime_pp'],runtime_lb_MILP])
             del original_model
             del current_model
             del result
+            intermediate_frame = pd.DataFrame(np.array(result_matrix), columns = cols)
+            intermediate_frame.index = test_problems[0:idx+1]
 
-    result_matrix = pd.DataFrame(np.array(result_matrix), columns=['obj_pp', 'obj', 'iter', 'time_pp', 'time'])
-    result_matrix.index = test_problems
-    result_matrix['iter'] = result_matrix['iter'].astype('int')
+    result_matrix = intermediate_frame.apply(pd.to_numeric, errors='coerce')
+    result_matrix['iterations'] = result_matrix['iterations'].astype('int')
     return result_matrix
 
 def get_model_data_for_print(m):
@@ -121,7 +134,6 @@ def get_model_data_for_print(m):
 def load_pyomo_model(problem_name):
     testinstance = importlib.import_module(problem_name)
     return testinstance.m
-
 
 def to_str(f,mode = 'float'):
     if mode == 'float' and f != "$*$":

@@ -6,6 +6,7 @@ from pyomo.opt import SolverStatus, TerminationCondition
 from pyomo.environ import *
 import logging
 import time
+import params
 
 int_type = ['Integers', 'PositiveIntegers', 'NonPositiveIntegers',
             'NegativeIntegers', 'NonNegativeIntegers', 'Boolean', 'Binary']
@@ -93,7 +94,7 @@ def model_status(result_solver):
 
     return result
 
-def g_max_lin(m):
+def get_max_constr_value_lin(m):
 
     linear_constrs = []
     for constr in m.component_objects(Constraint):
@@ -116,7 +117,7 @@ def g_max_lin(m):
         return 0
 
 
-def get_max_violated_constr(m):
+def get_max_violated_nonlinear_constr(m):
     """Returns the maximum violated constraint of all constraint functions of a pyomo model m for a given point x,
     implicitly rearranging all constraints to g_i(x) <= 0 and computing max(g_i(x))"""
 
@@ -126,14 +127,17 @@ def get_max_violated_constr(m):
             nonlinear_constrs.append(constr)
     # Note that equality constraints are always fulfilled, as they are assumed
     # to be linear and to only contain continuous variables and are not changed when rounding.
-    if len(nonlinear_constrs) >= 2:
-        g_vals = np.zeros(len(nonlinear_constrs))
-        for idx, constr in enumerate(nonlinear_constrs):
-            g_vals[idx] = constr_value(constr)
-        idx_max = np.argmax(g_vals)
-        return nonlinear_constrs[idx_max]
+    if nonlinear_constrs:
+        if len(nonlinear_constrs) >= 2:
+            g_vals = np.zeros(len(nonlinear_constrs))
+            for idx, constr in enumerate(nonlinear_constrs):
+                g_vals[idx] = constr_value(constr)
+            idx_max = np.argmax(g_vals)
+            return nonlinear_constrs[idx_max]
+        else:
+            return nonlinear_constrs[0]
     else:
-        return nonlinear_constrs[0]
+        return []
 
 
 def gradient(constr, variables):
@@ -189,3 +193,39 @@ def print_cutting_planes(model):
 
 def check_sense_on_minimize(model):
     return model.obj.sense == 1
+
+def is_epsilon_feasible_nonlinear(m):
+    max_violated_nonlinear_constr = get_max_violated_nonlinear_constr(m)
+    g_nu = 0
+    if max_violated_nonlinear_constr:
+        g_nu = constr_value(get_max_violated_nonlinear_constr(m))
+    if g_nu>params.epsilon:
+        return False
+    else:
+        return True
+
+def is_epsilon_feasible(m):
+    max_constr_value = get_max_violated_constr_value(m)
+    if max_constr_value>params.epsilon:
+        return False
+    else:
+        return True
+
+def get_max_violated_constr_value(m):
+    max_violated_nonlinear_constr = get_max_violated_nonlinear_constr(m)
+    g_nu = 0
+    if max_violated_nonlinear_constr:
+        g_nu = constr_value(get_max_violated_nonlinear_constr(m))
+    g_nu_lin = get_max_constr_value_lin(m)
+    return max(g_nu,g_nu_lin)
+
+def get_alpha_epi_position(m):
+    model_vars = get_model_vars(m)
+    obj_var_list = list(identify_variables(m.obj.expr))
+    assert (len(obj_var_list) == 1)
+    name_epi = obj_var_list[0].name
+    var_names = [var.name for var in model_vars]
+    return var_names.index(name_epi)
+
+
+

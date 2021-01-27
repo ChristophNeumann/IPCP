@@ -81,5 +81,7 @@ These scripts load the models from ```/minlplib_instances```, run the IPCP on th
 
 Note that mainly due to interfacing times between Pyomo and the LP/NLP solver, applying the IPCP to problems may take significantly longer than the reported run time. The latter corresponds to the time spent in the LP/NLP solver and thus excludes interfacing times and is hence closer to the time the method would actually take when integrated into a solver.
 
+In the folder ```/solver_log``` we further report the log files of B-Hyb, B-OA and SCIP that we used as a comparison. This folder also contains a xlsx-file with aggregated results that we used to compare solving times and lower bounds of all solvers and models with and without reversed inner parallel cuts.
+
 ## Contact
 Christoph.Neumann@kit.edu
